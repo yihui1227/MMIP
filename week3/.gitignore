@@ -1,0 +1,9 @@
+*.npy
+*.pyc
+
+
+# outputs 資料夾中的測試集預測結果 (程式執行完會自動產生，不需上傳)
+outputs/test_pred_plain.csv
+outputs/test_pred_resnet.csv
+outputs/test_pred_plain_aug.csv
+outputs/test_pred_resnet_aug.csv

@@ -1,0 +1,10 @@
+--extra-index-url https://download.pytorch.org/whl/cu124
+numpy<2
+kagglehub
+torch
+torchvision
+torchaudio
+scikit-learn
+pandas
+matplotlib
+ipykernel
