@@ -1,0 +1,17 @@
+# Python 3.10+
+# ⚠️ torch / torchvision 不要放在這裡用預設來源安裝（Windows 會裝成 CPU 版）。
+# 請先依 README 用 CUDA index 安裝：
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+numpy
+pandas
+scikit-learn
+matplotlib
+pillow
+kagglehub
+nltk
+bert-score
+transformers>=4.40
+google-genai
+ipykernel
+notebook
+python-dotenv
