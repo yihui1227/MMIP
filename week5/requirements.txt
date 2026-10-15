@@ -1,0 +1,14 @@
+# PyTorch 請先以 CUDA 版安裝（cu126）：
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+numpy
+pandas
+matplotlib
+pillow
+tqdm
+scikit-learn
+kagglehub
+transformers>=4.40
+nltk
+bert-score
+jupyter
+ipykernel
