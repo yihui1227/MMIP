@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+.env.*
+.cache/
+outputs/models/
+outputs/*adapter/
+outputs/*training/
+outputs/main_before_*.ipynb
+outputs/*.log
+*.safetensors
+*.bin
+*.pt
+*.gguf

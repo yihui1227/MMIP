@@ -1,0 +1,42 @@
+{
+  "a_test": {
+    "count": 20,
+    "sha256": "de5aa8954c8124dbf01a7bc5d565f81879556f9e7e4189a246a86c0532a31bfb"
+  },
+  "a_dev": {
+    "count": 5,
+    "sha256": "f75ae3f52c15ef472fecdab959acbb8fb0996a530a2d500cf4feab61cbba5459"
+  },
+  "b_test": {
+    "count": 20,
+    "sha256": "84fd4e5b23b98a0f744caecbde92ffef6cf0d52f0b538bca6051f84bc496bde7"
+  },
+  "general_test": {
+    "count": 100,
+    "sha256": "71548dbdf1890ab7ec8efe5767834bd5c4c7e4f03d9e825a7d948d1a38b47618"
+  },
+  "text_train": {
+    "count": 120,
+    "sha256": "57939c905dcd40391b3a3573353c9082d414d136a01e0d3fc18f3d84495277b4"
+  },
+  "text_dev": {
+    "count": 20,
+    "sha256": "b40432c48308dee857d99762ab08363657b485d30f8577ed869b8c54262b312c"
+  },
+  "text_test": {
+    "count": 40,
+    "sha256": "03a77ffab1283206f0b6b59792b39af11d3639de26f7a9764fa852681bb10165"
+  },
+  "visual_train": {
+    "count": 120,
+    "sha256": "267122a183e636ae4cd05efe09e485622219836c4b02db423bd89d10b9416750"
+  },
+  "visual_dev": {
+    "count": 20,
+    "sha256": "3d5cfffb02852b320fea28ff35a004576d8017bbbdade92b79d7f5df13d44234"
+  },
+  "visual_test": {
+    "count": 30,
+    "sha256": "2ab9ad7d231f130f9d09c6d9e47dae2aaa6844693c834af60a86ad40e3a94e4d"
+  }
+}

@@ -1,0 +1,7 @@
+﻿mode,category,n,accuracy
+base,dense_level_1,20,0.9
+base,dense_level_2,20,0.8
+base,dense_level_3,20,0.7
+dpo,dense_level_1,20,0.95
+dpo,dense_level_2,20,0.8
+dpo,dense_level_3,20,0.7

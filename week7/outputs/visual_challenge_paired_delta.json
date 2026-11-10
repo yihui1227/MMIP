@@ -1,0 +1,11 @@
+{
+  "n": 60,
+  "base_correct": 48,
+  "dpo_correct": 49,
+  "improved": 1,
+  "regressed": 0,
+  "delta": 0.016666666666666666,
+  "low": 0.0,
+  "high": 0.05,
+  "protocol": "Paired item bootstrap, supplemental post-ceiling diagnostic; no retraining or example selection"
+}

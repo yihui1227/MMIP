@@ -1,0 +1,5 @@
+﻿task,supported_accuracy,unknown_accuracy,over_refusal,false_positive_rate,false_negative_rate,invalid_rate,absent_n,present_n
+text_base,0.6190476190476191,1.0,0.0,,,,,
+visual_base,,,,0.0,0.0,0.0,10.0,20.0
+text_dpo,0.6666666666666666,1.0,0.0,,,,,
+visual_dpo,,,,0.0,0.0,0.0,10.0,20.0

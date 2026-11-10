@@ -1,0 +1,100 @@
+{"id": "G001", "category": "addition", "prompt": "計算 14+11，只輸出數字。", "reference": "25", "metric": "number"}
+{"id": "G002", "category": "multiplication", "prompt": "計算 2×5，只輸出數字。", "reference": "10", "metric": "number"}
+{"id": "G003", "category": "fraction", "prompt": "40 的四分之一是多少？只輸出數字。", "reference": "10", "metric": "number"}
+{"id": "G004", "category": "sorting", "prompt": "將 5、1、3 升冪排列，只輸出 JSON 整數陣列。", "reference": [1, 3, 5], "metric": "json"}
+{"id": "G005", "category": "parity", "prompt": "7 是奇數或偶數？只輸出「奇數」或「偶數」。", "reference": "奇數", "metric": "exact"}
+{"id": "G006", "category": "json", "prompt": "只輸出 JSON：id 為 2、active 為 true。", "reference": {"id": 2, "active": true}, "metric": "json"}
+{"id": "G007", "category": "string", "prompt": "字串 ABC02XYZ 共有幾個字元？只輸出數字。", "reference": "8", "metric": "number"}
+{"id": "G008", "category": "unit", "prompt": "2 公尺等於幾公分？只輸出數字。", "reference": "200", "metric": "number"}
+{"id": "G009", "category": "logic", "prompt": "若 x=2，判斷 x>3 是否成立，只輸出 true 或 false。", "reference": "false", "metric": "exact"}
+{"id": "G010", "category": "sequence", "prompt": "數列 2、6、10 的下一項是？只輸出數字。", "reference": "14", "metric": "number"}
+{"id": "G011", "category": "addition", "prompt": "計算 21+12，只輸出數字。", "reference": "33", "metric": "number"}
+{"id": "G012", "category": "multiplication", "prompt": "計算 3×6，只輸出數字。", "reference": "18", "metric": "number"}
+{"id": "G013", "category": "fraction", "prompt": "60 的四分之一是多少？只輸出數字。", "reference": "15", "metric": "number"}
+{"id": "G014", "category": "sorting", "prompt": "將 6、2、4 升冪排列，只輸出 JSON 整數陣列。", "reference": [2, 4, 6], "metric": "json"}
+{"id": "G015", "category": "parity", "prompt": "10 是奇數或偶數？只輸出「奇數」或「偶數」。", "reference": "偶數", "metric": "exact"}
+{"id": "G016", "category": "json", "prompt": "只輸出 JSON：id 為 3、active 為 true。", "reference": {"id": 3, "active": true}, "metric": "json"}
+{"id": "G017", "category": "string", "prompt": "字串 ABC03XYZ 共有幾個字元？只輸出數字。", "reference": "8", "metric": "number"}
+{"id": "G018", "category": "unit", "prompt": "3 公尺等於幾公分？只輸出數字。", "reference": "300", "metric": "number"}
+{"id": "G019", "category": "logic", "prompt": "若 x=3，判斷 x>4 是否成立，只輸出 true 或 false。", "reference": "false", "metric": "exact"}
+{"id": "G020", "category": "sequence", "prompt": "數列 3、7、11 的下一項是？只輸出數字。", "reference": "15", "metric": "number"}
+{"id": "G021", "category": "addition", "prompt": "計算 28+13，只輸出數字。", "reference": "41", "metric": "number"}
+{"id": "G022", "category": "multiplication", "prompt": "計算 4×7，只輸出數字。", "reference": "28", "metric": "number"}
+{"id": "G023", "category": "fraction", "prompt": "80 的四分之一是多少？只輸出數字。", "reference": "20", "metric": "number"}
+{"id": "G024", "category": "sorting", "prompt": "將 7、3、5 升冪排列，只輸出 JSON 整數陣列。", "reference": [3, 5, 7], "metric": "json"}
+{"id": "G025", "category": "parity", "prompt": "13 是奇數或偶數？只輸出「奇數」或「偶數」。", "reference": "奇數", "metric": "exact"}
+{"id": "G026", "category": "json", "prompt": "只輸出 JSON：id 為 4、active 為 true。", "reference": {"id": 4, "active": true}, "metric": "json"}
+{"id": "G027", "category": "string", "prompt": "字串 ABC04XYZ 共有幾個字元？只輸出數字。", "reference": "8", "metric": "number"}
+{"id": "G028", "category": "unit", "prompt": "4 公尺等於幾公分？只輸出數字。", "reference": "400", "metric": "number"}
+{"id": "G029", "category": "logic", "prompt": "若 x=4，判斷 x>5 是否成立，只輸出 true 或 false。", "reference": "false", "metric": "exact"}
+{"id": "G030", "category": "sequence", "prompt": "數列 4、8、12 的下一項是？只輸出數字。", "reference": "16", "metric": "number"}
+{"id": "G031", "category": "addition", "prompt": "計算 35+14，只輸出數字。", "reference": "49", "metric": "number"}
+{"id": "G032", "category": "multiplication", "prompt": "計算 5×8，只輸出數字。", "reference": "40", "metric": "number"}
+{"id": "G033", "category": "fraction", "prompt": "100 的四分之一是多少？只輸出數字。", "reference": "25", "metric": "number"}
+{"id": "G034", "category": "sorting", "prompt": "將 8、4、6 升冪排列，只輸出 JSON 整數陣列。", "reference": [4, 6, 8], "metric": "json"}
+{"id": "G035", "category": "parity", "prompt": "16 是奇數或偶數？只輸出「奇數」或「偶數」。", "reference": "偶數", "metric": "exact"}
+{"id": "G036", "category": "json", "prompt": "只輸出 JSON：id 為 5、active 為 true。", "reference": {"id": 5, "active": true}, "metric": "json"}
+{"id": "G037", "category": "string", "prompt": "字串 ABC05XYZ 共有幾個字元？只輸出數字。", "reference": "8", "metric": "number"}
+{"id": "G038", "category": "unit", "prompt": "5 公尺等於幾公分？只輸出數字。", "reference": "500", "metric": "number"}
+{"id": "G039", "category": "logic", "prompt": "若 x=5，判斷 x>6 是否成立，只輸出 true 或 false。", "reference": "false", "metric": "exact"}
+{"id": "G040", "category": "sequence", "prompt": "數列 5、9、13 的下一項是？只輸出數字。", "reference": "17", "metric": "number"}
+{"id": "G041", "category": "addition", "prompt": "計算 42+15，只輸出數字。", "reference": "57", "metric": "number"}
+{"id": "G042", "category": "multiplication", "prompt": "計算 6×9，只輸出數字。", "reference": "54", "metric": "number"}
+{"id": "G043", "category": "fraction", "prompt": "120 的四分之一是多少？只輸出數字。", "reference": "30", "metric": "number"}
+{"id": "G044", "category": "sorting", "prompt": "將 9、5、7 升冪排列，只輸出 JSON 整數陣列。", "reference": [5, 7, 9], "metric": "json"}
+{"id": "G045", "category": "parity", "prompt": "19 是奇數或偶數？只輸出「奇數」或「偶數」。", "reference": "奇數", "metric": "exact"}
+{"id": "G046", "category": "json", "prompt": "只輸出 JSON：id 為 6、active 為 true。", "reference": {"id": 6, "active": true}, "metric": "json"}
+{"id": "G047", "category": "string", "prompt": "字串 ABC06XYZ 共有幾個字元？只輸出數字。", "reference": "8", "metric": "number"}
+{"id": "G048", "category": "unit", "prompt": "6 公尺等於幾公分？只輸出數字。", "reference": "600", "metric": "number"}
+{"id": "G049", "category": "logic", "prompt": "若 x=6，判斷 x>7 是否成立，只輸出 true 或 false。", "reference": "false", "metric": "exact"}
+{"id": "G050", "category": "sequence", "prompt": "數列 6、10、14 的下一項是？只輸出數字。", "reference": "18", "metric": "number"}
+{"id": "G051", "category": "addition", "prompt": "計算 49+16，只輸出數字。", "reference": "65", "metric": "number"}
+{"id": "G052", "category": "multiplication", "prompt": "計算 7×10，只輸出數字。", "reference": "70", "metric": "number"}
+{"id": "G053", "category": "fraction", "prompt": "140 的四分之一是多少？只輸出數字。", "reference": "35", "metric": "number"}
+{"id": "G054", "category": "sorting", "prompt": "將 10、6、8 升冪排列，只輸出 JSON 整數陣列。", "reference": [6, 8, 10], "metric": "json"}
+{"id": "G055", "category": "parity", "prompt": "22 是奇數或偶數？只輸出「奇數」或「偶數」。", "reference": "偶數", "metric": "exact"}
+{"id": "G056", "category": "json", "prompt": "只輸出 JSON：id 為 7、active 為 true。", "reference": {"id": 7, "active": true}, "metric": "json"}
+{"id": "G057", "category": "string", "prompt": "字串 ABC07XYZ 共有幾個字元？只輸出數字。", "reference": "8", "metric": "number"}
+{"id": "G058", "category": "unit", "prompt": "7 公尺等於幾公分？只輸出數字。", "reference": "700", "metric": "number"}
+{"id": "G059", "category": "logic", "prompt": "若 x=7，判斷 x>8 是否成立，只輸出 true 或 false。", "reference": "false", "metric": "exact"}
+{"id": "G060", "category": "sequence", "prompt": "數列 7、11、15 的下一項是？只輸出數字。", "reference": "19", "metric": "number"}
+{"id": "G061", "category": "addition", "prompt": "計算 56+17，只輸出數字。", "reference": "73", "metric": "number"}
+{"id": "G062", "category": "multiplication", "prompt": "計算 8×11，只輸出數字。", "reference": "88", "metric": "number"}
+{"id": "G063", "category": "fraction", "prompt": "160 的四分之一是多少？只輸出數字。", "reference": "40", "metric": "number"}
+{"id": "G064", "category": "sorting", "prompt": "將 11、7、9 升冪排列，只輸出 JSON 整數陣列。", "reference": [7, 9, 11], "metric": "json"}
+{"id": "G065", "category": "parity", "prompt": "25 是奇數或偶數？只輸出「奇數」或「偶數」。", "reference": "奇數", "metric": "exact"}
+{"id": "G066", "category": "json", "prompt": "只輸出 JSON：id 為 8、active 為 true。", "reference": {"id": 8, "active": true}, "metric": "json"}
+{"id": "G067", "category": "string", "prompt": "字串 ABC08XYZ 共有幾個字元？只輸出數字。", "reference": "8", "metric": "number"}
+{"id": "G068", "category": "unit", "prompt": "8 公尺等於幾公分？只輸出數字。", "reference": "800", "metric": "number"}
+{"id": "G069", "category": "logic", "prompt": "若 x=8，判斷 x>9 是否成立，只輸出 true 或 false。", "reference": "false", "metric": "exact"}
+{"id": "G070", "category": "sequence", "prompt": "數列 8、12、16 的下一項是？只輸出數字。", "reference": "20", "metric": "number"}
+{"id": "G071", "category": "addition", "prompt": "計算 63+18，只輸出數字。", "reference": "81", "metric": "number"}
+{"id": "G072", "category": "multiplication", "prompt": "計算 9×12，只輸出數字。", "reference": "108", "metric": "number"}
+{"id": "G073", "category": "fraction", "prompt": "180 的四分之一是多少？只輸出數字。", "reference": "45", "metric": "number"}
+{"id": "G074", "category": "sorting", "prompt": "將 12、8、10 升冪排列，只輸出 JSON 整數陣列。", "reference": [8, 10, 12], "metric": "json"}
+{"id": "G075", "category": "parity", "prompt": "28 是奇數或偶數？只輸出「奇數」或「偶數」。", "reference": "偶數", "metric": "exact"}
+{"id": "G076", "category": "json", "prompt": "只輸出 JSON：id 為 9、active 為 true。", "reference": {"id": 9, "active": true}, "metric": "json"}
+{"id": "G077", "category": "string", "prompt": "字串 ABC09XYZ 共有幾個字元？只輸出數字。", "reference": "8", "metric": "number"}
+{"id": "G078", "category": "unit", "prompt": "9 公尺等於幾公分？只輸出數字。", "reference": "900", "metric": "number"}
+{"id": "G079", "category": "logic", "prompt": "若 x=9，判斷 x>10 是否成立，只輸出 true 或 false。", "reference": "false", "metric": "exact"}
+{"id": "G080", "category": "sequence", "prompt": "數列 9、13、17 的下一項是？只輸出數字。", "reference": "21", "metric": "number"}
+{"id": "G081", "category": "addition", "prompt": "計算 70+19，只輸出數字。", "reference": "89", "metric": "number"}
+{"id": "G082", "category": "multiplication", "prompt": "計算 10×13，只輸出數字。", "reference": "130", "metric": "number"}
+{"id": "G083", "category": "fraction", "prompt": "200 的四分之一是多少？只輸出數字。", "reference": "50", "metric": "number"}
+{"id": "G084", "category": "sorting", "prompt": "將 13、9、11 升冪排列，只輸出 JSON 整數陣列。", "reference": [9, 11, 13], "metric": "json"}
+{"id": "G085", "category": "parity", "prompt": "31 是奇數或偶數？只輸出「奇數」或「偶數」。", "reference": "奇數", "metric": "exact"}
+{"id": "G086", "category": "json", "prompt": "只輸出 JSON：id 為 10、active 為 true。", "reference": {"id": 10, "active": true}, "metric": "json"}
+{"id": "G087", "category": "string", "prompt": "字串 ABC10XYZ 共有幾個字元？只輸出數字。", "reference": "8", "metric": "number"}
+{"id": "G088", "category": "unit", "prompt": "10 公尺等於幾公分？只輸出數字。", "reference": "1000", "metric": "number"}
+{"id": "G089", "category": "logic", "prompt": "若 x=10，判斷 x>11 是否成立，只輸出 true 或 false。", "reference": "false", "metric": "exact"}
+{"id": "G090", "category": "sequence", "prompt": "數列 10、14、18 的下一項是？只輸出數字。", "reference": "22", "metric": "number"}
+{"id": "G091", "category": "addition", "prompt": "計算 77+20，只輸出數字。", "reference": "97", "metric": "number"}
+{"id": "G092", "category": "multiplication", "prompt": "計算 11×14，只輸出數字。", "reference": "154", "metric": "number"}
+{"id": "G093", "category": "fraction", "prompt": "220 的四分之一是多少？只輸出數字。", "reference": "55", "metric": "number"}
+{"id": "G094", "category": "sorting", "prompt": "將 14、10、12 升冪排列，只輸出 JSON 整數陣列。", "reference": [10, 12, 14], "metric": "json"}
+{"id": "G095", "category": "parity", "prompt": "34 是奇數或偶數？只輸出「奇數」或「偶數」。", "reference": "偶數", "metric": "exact"}
+{"id": "G096", "category": "json", "prompt": "只輸出 JSON：id 為 11、active 為 true。", "reference": {"id": 11, "active": true}, "metric": "json"}
+{"id": "G097", "category": "string", "prompt": "字串 ABC11XYZ 共有幾個字元？只輸出數字。", "reference": "8", "metric": "number"}
+{"id": "G098", "category": "unit", "prompt": "11 公尺等於幾公分？只輸出數字。", "reference": "1100", "metric": "number"}
+{"id": "G099", "category": "logic", "prompt": "若 x=11，判斷 x>12 是否成立，只輸出 true 或 false。", "reference": "false", "metric": "exact"}
+{"id": "G100", "category": "sequence", "prompt": "數列 11、15、19 的下一項是？只輸出數字。", "reference": "23", "metric": "number"}

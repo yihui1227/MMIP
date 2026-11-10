@@ -1,0 +1,20 @@
+# Python 3.11; actual experiment environment, CUDA 12.6
+# Install torch from https://download.pytorch.org/whl/cu126 if not already installed.
+torch==2.14.1
+transformers==5.22.2
+accelerate==1.15.0
+bitsandbytes==0.50.2
+datasets==5.1.0
+peft==0.21.2
+trl==1.17.1
+pillow==12.3.0
+num2words==0.5.14
+numpy==2.4.6
+pandas==3.1.1
+matplotlib==3.11.2
+huggingface-hub==2.4.0
+nbformat==5.11.1
+nbclient==0.11.0
+nvidia-ml-py>=12
+ipykernel>=6,<8
+jupyterlab>=4,<5

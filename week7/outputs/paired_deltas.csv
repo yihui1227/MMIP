@@ -1,0 +1,4 @@
+﻿task,n,delta,low,high
+text_target,40,0.025,0.0,0.075
+text_general,100,-0.01,-0.03,0.0
+visual_target,30,0.0,0.0,0.0

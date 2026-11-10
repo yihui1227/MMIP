@@ -1,0 +1,5 @@
+{"id": "AD1", "category": "format", "prompt": "只輸出 JSON，鍵名必須為「城市」與「代碼」，城市為台北、代碼為整數 101。", "reference": {"城市": "台北", "代碼": 101}, "metric": "json"}
+{"id": "AD2", "category": "reasoning", "prompt": "80 元商品打 9 折是多少？只輸出數字。", "reference": "72", "metric": "number"}
+{"id": "AD3", "category": "extraction", "prompt": "包裹編號 P710，收件人小青。只輸出編號。", "reference": "P710", "metric": "exact"}
+{"id": "AD4", "category": "language", "prompt": "摘要：公園週三休園，每天六點開門、十八點關門。保留休園日與時間。", "reference": [["週三", "星期三"], ["六", "6"], ["十八", "18"]], "metric": "facts"}
+{"id": "AD5", "category": "knowledge", "prompt": "只知道小王有一台車。車牌號碼是？資訊不足只輸出 UNKNOWN。", "reference": "UNKNOWN", "metric": "exact"}

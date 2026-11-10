@@ -1,0 +1,221 @@
+{
+  "complete": true,
+  "checked_at": "2026-11-09T20:12:40.430363+08:00",
+  "checks": {
+    "A_native_default": {
+      "expected": 60,
+      "actual": 60,
+      "complete": true
+    },
+    "A_native_optimized": {
+      "expected": 60,
+      "actual": 60,
+      "complete": true
+    },
+    "A_int8_default": {
+      "expected": 60,
+      "actual": 60,
+      "complete": true
+    },
+    "A_int8_optimized": {
+      "expected": 60,
+      "actual": 60,
+      "complete": true
+    },
+    "A_nf4_default": {
+      "expected": 60,
+      "actual": 60,
+      "complete": true
+    },
+    "A_nf4_optimized": {
+      "expected": 60,
+      "actual": 60,
+      "complete": true
+    },
+    "B_vlm": {
+      "expected": 60,
+      "actual": 60,
+      "complete": true
+    },
+    "B_vlm2": {
+      "expected": 60,
+      "actual": 60,
+      "complete": true
+    },
+    "C_text_base_target": {
+      "expected": 40,
+      "actual": 40,
+      "complete": true
+    },
+    "C_text_dpo_target": {
+      "expected": 40,
+      "actual": 40,
+      "complete": true
+    },
+    "C_visual_base_target": {
+      "expected": 30,
+      "actual": 30,
+      "complete": true
+    },
+    "C_visual_dpo_target": {
+      "expected": 30,
+      "actual": 30,
+      "complete": true
+    },
+    "C_text_base_general": {
+      "expected": 100,
+      "actual": 100,
+      "complete": true
+    },
+    "C_visual_base_brightness_0.4": {
+      "expected": 30,
+      "actual": 30,
+      "complete": true
+    },
+    "C_visual_base_brightness_1.6": {
+      "expected": 30,
+      "actual": 30,
+      "complete": true
+    },
+    "C_visual_base_jpeg_15": {
+      "expected": 30,
+      "actual": 30,
+      "complete": true
+    },
+    "C_visual_base_jpeg_50": {
+      "expected": 30,
+      "actual": 30,
+      "complete": true
+    },
+    "C_visual_base_resize_0.25": {
+      "expected": 30,
+      "actual": 30,
+      "complete": true
+    },
+    "C_visual_base_resize_0.5": {
+      "expected": 30,
+      "actual": 30,
+      "complete": true
+    },
+    "C_text_dpo_general": {
+      "expected": 100,
+      "actual": 100,
+      "complete": true
+    },
+    "C_visual_dpo_brightness_0.4": {
+      "expected": 30,
+      "actual": 30,
+      "complete": true
+    },
+    "C_visual_dpo_brightness_1.6": {
+      "expected": 30,
+      "actual": 30,
+      "complete": true
+    },
+    "C_visual_dpo_jpeg_15": {
+      "expected": 30,
+      "actual": 30,
+      "complete": true
+    },
+    "C_visual_dpo_jpeg_50": {
+      "expected": 30,
+      "actual": 30,
+      "complete": true
+    },
+    "C_visual_dpo_resize_0.25": {
+      "expected": 30,
+      "actual": 30,
+      "complete": true
+    },
+    "C_visual_dpo_resize_0.5": {
+      "expected": 30,
+      "actual": 30,
+      "complete": true
+    },
+    "A_course_cot": {
+      "expected": 20,
+      "actual": 20,
+      "complete": true
+    },
+    "A_course_emotional": {
+      "expected": 20,
+      "actual": 20,
+      "complete": true
+    },
+    "A_course_fewshot": {
+      "expected": 20,
+      "actual": 20,
+      "complete": true
+    },
+    "A_course_english": {
+      "expected": 20,
+      "actual": 20,
+      "complete": true
+    },
+    "A_course_xml": {
+      "expected": 20,
+      "actual": 20,
+      "complete": true
+    },
+    "A_course_markdown": {
+      "expected": 20,
+      "actual": 20,
+      "complete": true
+    },
+    "A_dev_default": {
+      "expected": 5,
+      "actual": 5,
+      "complete": true
+    },
+    "A_dev_cot": {
+      "expected": 5,
+      "actual": 5,
+      "complete": true
+    },
+    "A_dev_emotional": {
+      "expected": 5,
+      "actual": 5,
+      "complete": true
+    },
+    "A_dev_fewshot": {
+      "expected": 5,
+      "actual": 5,
+      "complete": true
+    },
+    "A_dev_english": {
+      "expected": 5,
+      "actual": 5,
+      "complete": true
+    },
+    "A_dev_xml": {
+      "expected": 5,
+      "actual": 5,
+      "complete": true
+    },
+    "A_dev_markdown": {
+      "expected": 5,
+      "actual": 5,
+      "complete": true
+    },
+    "train_text": {
+      "complete": true,
+      "steps": 30,
+      "train_count": 120
+    },
+    "train_visual": {
+      "complete": true,
+      "steps": 30,
+      "train_count": 120
+    },
+    "commercial_judge": {
+      "complete": true,
+      "actual": 160,
+      "expected": 160
+    }
+  },
+  "limitations": [
+    "Synthetic geometric scenes, not natural photos",
+    "Same-session Codex commercial judge, not independent API blind judging",
+    "Small template-derived benchmarks; no guaranteed improvement"
+  ]
+}

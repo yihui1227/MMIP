@@ -1,0 +1,41 @@
+{
+  "selected": "emotional",
+  "dev_scores": [
+    {
+      "variant": "emotional",
+      "score": 1.0,
+      "mean_input_tokens": 80.4
+    },
+    {
+      "variant": "xml",
+      "score": 1.0,
+      "mean_input_tokens": 84.4
+    },
+    {
+      "variant": "markdown",
+      "score": 0.8,
+      "mean_input_tokens": 78.4
+    },
+    {
+      "variant": "cot",
+      "score": 0.8,
+      "mean_input_tokens": 84.4
+    },
+    {
+      "variant": "fewshot",
+      "score": 0.8,
+      "mean_input_tokens": 133.4
+    },
+    {
+      "variant": "default",
+      "score": 0.7333333333333333,
+      "mean_input_tokens": 52.4
+    },
+    {
+      "variant": "english",
+      "score": 0.7333333333333333,
+      "mean_input_tokens": 60.0
+    }
+  ],
+  "selection": "dev_only"
+}

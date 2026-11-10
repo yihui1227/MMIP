@@ -1,0 +1,26 @@
+{
+  "version": "dense_v1",
+  "seed": 20261110,
+  "count": 60,
+  "levels": [
+    {
+      "objects": 12,
+      "size": 40,
+      "count": 20
+    },
+    {
+      "objects": 20,
+      "size": 24,
+      "count": 20
+    },
+    {
+      "objects": 30,
+      "size": 14,
+      "count": 20
+    }
+  ],
+  "positive": 30,
+  "negative": 30,
+  "dataset_sha256": "851fc69b275f1696d7c9ae9b88305d9377d8ca5f59d137ed3970f94e8041a706",
+  "protocol": "Fixed before evaluating either model; no example selection by base/DPO performance; no training on challenge"
+}

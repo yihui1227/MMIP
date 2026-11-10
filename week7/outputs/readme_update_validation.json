@@ -1,0 +1,27 @@
+{
+  "notebook_format_valid": true,
+  "full_report_chapter_removed": true,
+  "readme_images_valid": true,
+  "supplemental_counts": {
+    "visual_probability_base_original_v1.jsonl": 30,
+    "visual_probability_base_dense_v1.jsonl": 60,
+    "C_visual_base_challenge_dense_v1.jsonl": 60,
+    "visual_probability_dpo_original_v1.jsonl": 30,
+    "visual_probability_dpo_dense_v1.jsonl": 60,
+    "C_visual_dpo_challenge_dense_v1.jsonl": 60
+  },
+  "training_changed": false,
+  "original_tests_replaced": false,
+  "cell_order_check": "Passed all 76 code cells in isolated fixture using saved results; model loading/generation mocked",
+  "paired_delta": {
+    "n": 60,
+    "base_correct": 48,
+    "dpo_correct": 49,
+    "improved": 1,
+    "regressed": 0,
+    "delta": 0.016666666666666666,
+    "low": 0.0,
+    "high": 0.05,
+    "protocol": "Paired item bootstrap, supplemental post-ceiling diagnostic; no retraining or example selection"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "selected": "deliberate",
+  "dev_scores": [
+    {
+      "variant": "deliberate",
+      "score": 0.8
+    },
+    {
+      "variant": "structured",
+      "score": 0.8
+    },
+    {
+      "variant": "fewshot",
+      "score": 0.8
+    },
+    {
+      "variant": "default",
+      "score": 0.7333333333333333
+    }
+  ],
+  "selection": "dev_only"
+}

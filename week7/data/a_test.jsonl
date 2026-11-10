@@ -1,0 +1,20 @@
+{"id": "A01", "category": "format", "prompt": "只輸出合法 JSON，不要 Markdown。name 為小明，age 為 20。", "reference": {"name": "小明", "age": 20}, "metric": "json"}
+{"id": "A02", "category": "format", "prompt": "將 apple、banana、cherry 依此順序以英文逗號連接，只輸出結果。", "reference": "apple,banana,cherry", "metric": "exact"}
+{"id": "A03", "category": "format", "prompt": "只輸出「是」或「否」：17 是質數嗎？", "reference": "是", "metric": "exact"}
+{"id": "A04", "category": "format", "prompt": "將 3、1、2 升冪排列，只輸出 JSON 整數陣列。", "reference": [1, 2, 3], "metric": "json"}
+{"id": "A05", "category": "reasoning", "prompt": "商品原價 240 元，打 75 折後是多少元？只輸出數字。", "reference": "180", "metric": "number"}
+{"id": "A06", "category": "reasoning", "prompt": "甲比乙年長 4 歲，兩人共 30 歲。甲幾歲？只輸出數字。", "reference": "17", "metric": "number"}
+{"id": "A07", "category": "reasoning", "prompt": "所有貓都是動物，小白是貓。小白是動物嗎？只輸出「是」或「否」。", "reference": "是", "metric": "exact"}
+{"id": "A08", "category": "reasoning", "prompt": "一列車 09:45 出發，行駛 85 分鐘。幾點抵達？只輸出 HH:MM。", "reference": "11:10", "metric": "exact"}
+{"id": "A09", "category": "extraction", "prompt": "訂單：客戶林安，編號 T482，總額 860 元。只輸出訂單編號。", "reference": "T482", "metric": "exact"}
+{"id": "A10", "category": "extraction", "prompt": "小張週一去台中，週三去台南，週五回台北。週三在哪裡？只輸出地名。", "reference": "台南", "metric": "exact"}
+{"id": "A11", "category": "extraction", "prompt": "信件：會議改到 11 月 12 日下午三點，地點 B203。只輸出地點。", "reference": "B203", "metric": "exact"}
+{"id": "A12", "category": "extraction", "prompt": "名單：王明 92 分、李華 87 分、陳平 95 分。最高分是誰？只輸出姓名。", "reference": "陳平", "metric": "exact"}
+{"id": "A13", "category": "language", "prompt": "將 Good morning 翻譯為繁體中文，只輸出譯文。", "reference": ["早安", "早上好"], "metric": "aliases"}
+{"id": "A14", "category": "language", "prompt": "將「今天下雨，所以比賽取消。」改寫為「因為…所以…」，保留原意。", "reference": ["下雨", "比賽", "取消"], "metric": "coverage"}
+{"id": "A15", "category": "language", "prompt": "摘要：圖書館週一閉館，週二至週日開放，開放時間九點至十七點。請保留閉館日與開放時間。", "reference": [["週一", "星期一"], ["九", "9"], ["十七", "17"]], "metric": "facts"}
+{"id": "A16", "category": "language", "prompt": "「這個問題很簡單。」中的形容詞是什麼？只輸出該詞。", "reference": "簡單", "metric": "exact"}
+{"id": "A17", "category": "knowledge", "prompt": "水的化學式是什麼？只輸出化學式。", "reference": "H2O", "metric": "exact"}
+{"id": "A18", "category": "knowledge", "prompt": "太陽系最大的行星是哪一顆？只輸出繁體中文名稱。", "reference": "木星", "metric": "exact"}
+{"id": "A19", "category": "knowledge", "prompt": "資料只說小美養了一隻貓。貓幾歲？若資料不足只輸出 UNKNOWN。", "reference": "UNKNOWN", "metric": "exact"}
+{"id": "A20", "category": "knowledge", "prompt": "資料：盒中有 8 顆球。問：盒中紅球有幾顆？資料不足只輸出 UNKNOWN。", "reference": "UNKNOWN", "metric": "exact"}
