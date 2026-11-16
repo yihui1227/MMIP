@@ -1,0 +1,18 @@
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+.env
+.env.*
+
+# 可由 Notebook 重新產生的合成影像
+data/images/
+# 使用者自行放入的真實洗標照片（可能含個人物品，不上傳）
+data/real/
+
+# 模型權重與執行期檔案
+*.safetensors
+*.bin
+*.pt
+outputs/ui_uploads/
+outputs/*_quick*
+outputs/sft_adapter_quick/

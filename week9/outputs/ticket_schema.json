@@ -1,0 +1,103 @@
+{
+  "properties": {
+    "ticket_id": {
+      "title": "Ticket Id",
+      "type": "string"
+    },
+    "route": {
+      "enum": [
+        "symbol_recognition",
+        "composition_ocr",
+        "care_advice",
+        "retake_photo",
+        "human_review",
+        "clarify",
+        "out_of_scope",
+        "blocked"
+      ],
+      "title": "Route",
+      "type": "string"
+    },
+    "department": {
+      "title": "Department",
+      "type": "string"
+    },
+    "image_ref": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Image Ref"
+    },
+    "image_status": {
+      "enum": [
+        "no_image",
+        "ok",
+        "blurry",
+        "dark",
+        "glare",
+        "too_small",
+        "rotated",
+        "partial",
+        "not_label"
+      ],
+      "title": "Image Status",
+      "type": "string"
+    },
+    "preprocess": {
+      "items": {
+        "enum": [
+          "deskew",
+          "crop",
+          "upscale",
+          "enhance_contrast"
+        ],
+        "type": "string"
+      },
+      "title": "Preprocess",
+      "type": "array"
+    },
+    "user_request": {
+      "title": "User Request",
+      "type": "string"
+    },
+    "context": {
+      "description": "同一話題內先前的使用者訊息",
+      "items": {
+        "type": "string"
+      },
+      "title": "Context",
+      "type": "array"
+    },
+    "priority": {
+      "enum": [
+        "normal",
+        "high"
+      ],
+      "title": "Priority",
+      "type": "string"
+    },
+    "created_at": {
+      "title": "Created At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "ticket_id",
+    "route",
+    "department",
+    "image_ref",
+    "image_status",
+    "preprocess",
+    "user_request",
+    "context",
+    "priority",
+    "created_at"
+  ],
+  "title": "TaskTicket",
+  "type": "object"
+}

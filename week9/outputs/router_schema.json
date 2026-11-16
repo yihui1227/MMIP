@@ -1,0 +1,72 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "in_scope": {
+      "description": "是否為洗標相關且可處理的需求",
+      "title": "In Scope",
+      "type": "boolean"
+    },
+    "route": {
+      "description": "分流目的地",
+      "enum": [
+        "symbol_recognition",
+        "composition_ocr",
+        "care_advice",
+        "retake_photo",
+        "human_review",
+        "clarify",
+        "out_of_scope",
+        "blocked"
+      ],
+      "title": "Route",
+      "type": "string"
+    },
+    "image_status": {
+      "description": "本輪相關洗標照片的狀態",
+      "enum": [
+        "no_image",
+        "ok",
+        "blurry",
+        "dark",
+        "glare",
+        "too_small",
+        "rotated",
+        "partial",
+        "not_label"
+      ],
+      "title": "Image Status",
+      "type": "string"
+    },
+    "preprocess": {
+      "description": "送辨識前的前處理步驟",
+      "items": {
+        "enum": [
+          "deskew",
+          "crop",
+          "upscale",
+          "enhance_contrast"
+        ],
+        "type": "string"
+      },
+      "maxItems": 3,
+      "title": "Preprocess",
+      "type": "array"
+    },
+    "reply": {
+      "description": "給使用者的一句回覆",
+      "maxLength": 200,
+      "minLength": 1,
+      "title": "Reply",
+      "type": "string"
+    }
+  },
+  "required": [
+    "in_scope",
+    "route",
+    "image_status",
+    "preprocess",
+    "reply"
+  ],
+  "title": "RouterOutput",
+  "type": "object"
+}

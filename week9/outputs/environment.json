@@ -1,0 +1,11 @@
+{
+  "python": "3.11.18",
+  "torch": "2.14.1+cu126",
+  "cuda": "12.6",
+  "transformers": "5.22.2",
+  "peft": "0.21.2",
+  "sklearn": "1.9.1",
+  "pydantic": "2.12.3",
+  "gpu": "NVIDIA GeForce RTX 3060",
+  "quick": false
+}
