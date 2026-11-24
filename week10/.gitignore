@@ -1,0 +1,23 @@
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+.env
+.env.*
+
+# 自錄影片與其快取（可能含個人影像／聲音，不上傳）
+data/videos/*.mp4
+data/videos/*.mov
+data/videos/*.mkv
+data/videos/*.avi
+data/videos/*.webm
+data/videos/*.m4v
+data/video_cache/
+
+# 執行期快取與快速檢查輸出
+outputs/cache/
+outputs/*_quick*
+
+# 模型權重
+*.safetensors
+*.bin
+*.pt

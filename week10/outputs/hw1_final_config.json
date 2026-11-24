@@ -1,0 +1,10 @@
+{
+  "chunk_size": 80,
+  "overlap": 32,
+  "top_k": 8,
+  "technique": "hyde",
+  "gen_prompt": "G4-先反思再回答",
+  "rerank": true,
+  "gate_tau": 0.0262,
+  "retrieval": "hybrid (chunk + QA, RRF) → bge-reranker-v2-m3"
+}

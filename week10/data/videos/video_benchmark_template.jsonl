@@ -1,0 +1,4 @@
+{"qid": "V01", "dialog_id": "VD1", "question": "羊毛衣要用幾度的水手洗？", "gold_video": "wool_handwash", "gold_segments": [[5, 20]], "answer": "用 30°C 以下的冷水，加入羊毛專用或中性洗劑。", "needs": "speech"}
+{"qid": "V02", "dialog_id": "VD1", "question": "那它洗的時候手要怎麼動？", "gold_video": "wool_handwash", "gold_segments": [[20, 45]], "answer": "雙手輕壓衣物讓水進出，不要搓揉或扭轉。", "needs": "visual"}
+{"qid": "V03", "dialog_id": "VD1", "question": "洗完要怎麼弄乾？", "gold_video": "wool_handwash", "gold_segments": [[45, 70]], "answer": "用毛巾捲起壓出水分，再平放在晾衣網上陰乾。", "needs": "both"}
+{"qid": "V04", "dialog_id": "VD2", "question": "洗衣機的溫和洗程在哪裡設定？", "gold_video": "gentle_cycle", "gold_segments": [[3, 15]], "answer": "轉動行程旋鈕到「柔洗／羊毛」，再按開始鍵。", "needs": "visual"}

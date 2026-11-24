@@ -1,0 +1,24 @@
+# Python 3.11；實測環境（conda: MMIP-w10）、CUDA 12.6、RTX 3060 12GB
+# 先安裝 CUDA 版 PyTorch：
+#   pip install torch==2.14.1 torchvision==0.29.1 --index-url https://download.pytorch.org/whl/cu126
+transformers==5.22.2
+accelerate==1.15.0
+huggingface_hub==1.33.0
+tokenizers==0.23.3
+safetensors==0.8.0
+numpy==2.4.6
+pandas==2.3.3
+scipy==1.17.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+pillow==11.3.0
+tqdm==4.70.1
+networkx==3.6.1      # 作業四 GraphRAG：建圖、Louvain 社群
+pymupdf==2.1         # 作業四：讀取論文 PDF
+av==18.1.0           # 作業二：影片解碼（影格 / 音訊），不需另裝 ffmpeg
+gradio==5.50.0       # 作業一：User Interface
+pydantic==2.12.3
+ipykernel>=6,<8
+jupyterlab>=4,<5
+nbclient==0.11.0
+nbformat==5.11.1

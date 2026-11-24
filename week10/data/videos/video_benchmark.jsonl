@@ -1,0 +1,10 @@
+{"qid": "V01", "dialog_id": "VD1", "question": "這件T恤的材質成分是什麼？", "gold_video": "care_label", "gold_segments": [[0, 13]], "answer": "棉 75%、聚酯纖維（Polyester）25%。", "needs": "visual"}
+{"qid": "V02", "dialog_id": "VD1", "question": "那它可以用烘衣機烘嗎？", "gold_video": "care_label", "gold_segments": [[0, 15]], "answer": "可以烘，但聚酯纖維遇高溫容易變形，所以不要用太高溫。", "needs": "speech"}
+{"qid": "V03", "dialog_id": "VD1", "question": "它最高可以用幾度的水洗？", "gold_video": "care_label", "gold_segments": [[18, 29]], "answer": "最高水洗溫度 30°C。", "needs": "both"}
+{"qid": "V04", "dialog_id": "VD1", "question": "可以用漂白劑嗎？", "gold_video": "care_label", "gold_segments": [[18, 29]], "answer": "不可以漂白（洗標標示 Not bleachable）。", "needs": "both"}
+{"qid": "V05", "dialog_id": "VD2", "question": "洗標建議這件衣服怎麼晾乾？", "gold_video": "care_label", "gold_segments": [[14, 29]], "answer": "吊掛在陰涼處晾乾（Hang and dry in a cool place）。", "needs": "both"}
+{"qid": "V06", "dialog_id": "VD2", "question": "那洗標上圓圈裡有 P 的符號代表什麼？", "gold_video": "care_label", "gold_segments": [[18, 29]], "answer": "代表可以一般乾洗（Regular dry cleaning）。", "needs": "visual"}
+{"qid": "V07", "dialog_id": "VD3", "question": "在自助洗衣店要怎麼開始烘衣服？", "gold_video": "dryer_coin", "gold_segments": [[5, 16]], "answer": "先在烘衣機右側的投幣盒投幣，面板顯示 30 後，按面板左下方的按鍵選擇溫度並啟動。", "needs": "visual"}
+{"qid": "V08", "dialog_id": "VD3", "question": "那投幣之後面板顯示多少？", "gold_video": "dryer_coin", "gold_segments": [[10, 16]], "answer": "面板顯示 30。", "needs": "visual"}
+{"qid": "V09", "dialog_id": "VD3", "question": "如果想烘久一點要怎麼做？", "gold_video": "dryer_coin", "gold_segments": [[17, 29]], "answer": "繼續在右側投幣盒投幣，面板數字會從 30 增加到 45。", "needs": "visual"}
+{"qid": "V10", "dialog_id": "VD4", "question": "烘衣機的投幣盒在哪裡？", "gold_video": "dryer_coin", "gold_segments": [[5, 9], [17, 27]], "answer": "在烘衣機操作面板右側的白色投幣盒。", "needs": "visual"}

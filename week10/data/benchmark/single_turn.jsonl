@@ -1,0 +1,74 @@
+{"qid": "S01", "question": "洗標上那個盆子裡面有一隻手是什麼意思？", "gold": ["WA09"], "category": "洗標符號"}
+{"qid": "S02", "question": "洗衣盆符號裡寫 30 代表什麼？", "gold": ["WA02"], "category": "洗標符號"}
+{"qid": "S03", "question": "水盆底下有兩條線要選什麼洗程？", "gold": ["WA08"], "category": "洗標符號"}
+{"qid": "S04", "question": "洗衣盆裡面有三個點，水溫最高可以幾度？", "gold": ["WA06"], "category": "洗標符號"}
+{"qid": "S05", "question": "三角形裡有兩條斜線，我可以用漂白水嗎？", "gold": ["BL03"], "category": "洗標符號"}
+{"qid": "S06", "question": "空白的三角形代表什麼？", "gold": ["BL02"], "category": "洗標符號"}
+{"qid": "S07", "question": "三角形裡面寫 CL 是什麼意思？", "gold": ["BL05"], "category": "洗標符號"}
+{"qid": "S08", "question": "正方形裡面一個圓圈加兩個點可以烘衣機烘嗎？溫度多少？", "gold": ["DR03"], "category": "洗標符號"}
+{"qid": "S09", "question": "方框裡一條橫線是要怎麼晾？", "gold": ["DR07"], "category": "洗標符號"}
+{"qid": "S10", "question": "方框左上角有一條斜斜的線是什麼意思？", "gold": ["DR09"], "category": "洗標符號"}
+{"qid": "S11", "question": "方框裡有兩條直線代表什麼？", "gold": ["DR06"], "category": "洗標符號"}
+{"qid": "S12", "question": "美國洗標上方框頂端有一條弧線，像信封一樣，是什麼？", "gold": ["DR10"], "category": "洗標符號"}
+{"qid": "S13", "question": "熨斗裡面兩個點，熨斗要開幾度？", "gold": ["IR03"], "category": "洗標符號"}
+{"qid": "S14", "question": "熨斗一個點可以用蒸氣嗎？", "gold": ["IR02"], "category": "洗標符號"}
+{"qid": "S15", "question": "圓圈裡面一個 P 是什麼？", "gold": ["PR02"], "category": "洗標符號"}
+{"qid": "S16", "question": "圓圈裡的 F 和 P 有什麼差別？", "gold": ["PR02", "PR03"], "category": "洗標符號"}
+{"qid": "S17", "question": "圓圈裡面寫 W 代表可以自己丟洗衣機嗎？", "gold": ["PR04"], "category": "洗標符號"}
+{"qid": "S18", "question": "洗標上五種符號的順序是什麼？", "gold": ["OV03"], "category": "洗標符號"}
+{"qid": "S19", "question": "符號下面畫一條橫線是什麼意思？", "gold": ["OV06"], "category": "洗標符號"}
+{"qid": "S20", "question": "日本的洗標符號跟國際的一樣嗎？", "gold": ["OV09"], "category": "洗標符號"}
+{"qid": "S21", "question": "如果用比洗標更溫和的方式洗，會不會有問題？", "gold": ["OV11"], "category": "洗標符號"}
+{"qid": "S22", "question": "羊毛衣為什麼不能用熱水洗？", "gold": ["WO01"], "category": "材質保養"}
+{"qid": "S23", "question": "羊毛衣可以用一般含酵素的洗衣精嗎？", "gold": ["WO03"], "category": "材質保養"}
+{"qid": "S24", "question": "毛衣洗完要掛起來晾還是平放？", "gold": ["WO04", "DS02"], "category": "材質保養"}
+{"qid": "S25", "question": "Superwash 羊毛是什麼？可以機洗嗎？", "gold": ["WO09"], "category": "材質保養"}
+{"qid": "S26", "question": "真絲襯衫要怎麼洗？", "gold": ["SI02"], "category": "材質保養"}
+{"qid": "S27", "question": "絲質衣服洗完可以拿去曬太陽嗎？", "gold": ["SI04"], "category": "材質保養"}
+{"qid": "S28", "question": "純棉 T 恤第一次洗會縮多少？", "gold": ["CO02"], "category": "材質保養"}
+{"qid": "S29", "question": "亞麻襯衫洗完皺巴巴的怎麼辦？", "gold": ["CO05"], "category": "材質保養"}
+{"qid": "S30", "question": "嫘縈的洋裝可以丟洗衣機嗎？", "gold": ["RY02"], "category": "材質保養"}
+{"qid": "S31", "question": "天絲的衣服洗完變白白的是怎麼回事？", "gold": ["RY04"], "category": "材質保養"}
+{"qid": "S32", "question": "尼龍外套可以用高溫熨燙嗎？", "gold": ["SY03"], "category": "材質保養"}
+{"qid": "S33", "question": "內衣要怎麼洗鋼圈才不會變形？", "gold": ["SP03"], "category": "材質保養"}
+{"qid": "S34", "question": "游泳完泳衣要怎麼處理？", "gold": ["SP05"], "category": "材質保養"}
+{"qid": "S35", "question": "羽絨外套洗完要怎麼讓它恢復蓬鬆？", "gold": ["DN03"], "category": "材質保養"}
+{"qid": "S36", "question": "羽絨被可以用真空壓縮袋收納嗎？", "gold": ["DN06"], "category": "材質保養"}
+{"qid": "S37", "question": "皮衣被雨淋濕了怎麼辦？", "gold": ["LE02"], "category": "材質保養"}
+{"qid": "S38", "question": "牛仔褲要怎麼洗比較不會褪色？", "gold": ["DE01"], "category": "材質保養"}
+{"qid": "S39", "question": "Gore-Tex 這種防水外套可以加柔軟精嗎？", "gold": ["TE01"], "category": "材質保養"}
+{"qid": "S40", "question": "外套的撥水效果變差了，有辦法恢復嗎？", "gold": ["TE02"], "category": "材質保養"}
+{"qid": "S41", "question": "毛巾越洗越不吸水是為什麼？", "gold": ["TW01"], "category": "材質保養"}
+{"qid": "S42", "question": "混紡的衣服要照哪一種纖維的洗法？", "gold": ["FB02"], "category": "材質保養"}
+{"qid": "S43", "question": "棒球帽可以直接丟洗衣機嗎？", "gold": ["SX03"], "category": "材質保養"}
+{"qid": "S44", "question": "白色帆布鞋怎麼洗才不會黃掉？", "gold": ["SX05"], "category": "材質保養"}
+{"qid": "S45", "question": "衣服沾到血要用熱水還是冷水？", "gold": ["ST01", "SB04"], "category": "去漬"}
+{"qid": "S46", "question": "紅酒灑到衣服上該怎麼急救？", "gold": ["SF02"], "category": "去漬"}
+{"qid": "S47", "question": "咖哩滴到白襯衫上黃黃的洗不掉", "gold": ["SF04"], "category": "去漬"}
+{"qid": "S48", "question": "原子筆畫到衣服上要用什麼去除？", "gold": ["ST06"], "category": "去漬"}
+{"qid": "S49", "question": "口香糖黏在褲子上怎麼拿掉？", "gold": ["ST07"], "category": "去漬"}
+{"qid": "S50", "question": "白 T 腋下黃黃的汗漬要怎麼洗白？", "gold": ["ST02"], "category": "去漬"}
+{"qid": "S51", "question": "衣服上沾到口紅怎麼辦？", "gold": ["ST04"], "category": "去漬"}
+{"qid": "S52", "question": "小孩褲子沾到泥巴要馬上搓嗎？", "gold": ["ST08"], "category": "去漬"}
+{"qid": "S53", "question": "衣服上有霉斑還救得回來嗎？", "gold": ["ST10"], "category": "去漬"}
+{"qid": "S54", "question": "去漬的時候要從哪裡開始擦？", "gold": ["SB02"], "category": "去漬"}
+{"qid": "S55", "question": "汙漬還沒洗掉可以先拿去烘乾嗎？", "gold": ["SB06"], "category": "去漬"}
+{"qid": "S56", "question": "洗衣機要放多滿比較好？", "gold": ["MA03"], "category": "洗滌技巧"}
+{"qid": "S57", "question": "洗衣槽多久要清一次？", "gold": ["MA06"], "category": "洗滌技巧"}
+{"qid": "S58", "question": "洗衣精倒多一點會比較乾淨嗎？", "gold": ["MA04"], "category": "洗滌技巧"}
+{"qid": "S59", "question": "中性洗劑跟一般洗衣精差在哪？", "gold": ["MA09"], "category": "洗滌技巧"}
+{"qid": "S60", "question": "漂白水跟浴廁清潔劑一起用可以嗎？", "gold": ["BL08"], "category": "洗滌技巧"}
+{"qid": "S61", "question": "衣服洗完還是臭臭的是什麼原因？", "gold": ["TR06"], "category": "疑難排解"}
+{"qid": "S62", "question": "衣服怎麼會起毛球？要怎麼預防？", "gold": ["TR03"], "category": "疑難排解"}
+{"qid": "S63", "question": "白衣服被染色了怎麼辦？", "gold": ["TR05"], "category": "疑難排解"}
+{"qid": "S64", "question": "毛衣洗到縮水了還能救嗎？", "gold": ["TR02"], "category": "疑難排解"}
+{"qid": "S65", "question": "衣服換季收起來之前要注意什麼？", "gold": ["DS05"], "category": "晾曬收納"}
+{"qid": "S66", "question": "樟腦丸可以跟別的防蟲片一起放嗎？", "gold": ["DS06"], "category": "晾曬收納"}
+{"qid": "S67", "question": "幫洗標拍照有什麼要注意的？", "gold": ["LP01", "LP02", "LP03"], "category": "洗標辨識系統"}
+{"qid": "S68", "question": "你們的洗標辨識是怎麼運作的？", "gold": ["LS01"], "category": "洗標辨識系統"}
+{"qid": "S69", "question": "洗標已經洗到糊掉看不清楚，系統還能辨識嗎？", "gold": ["LP06"], "category": "洗標辨識系統"}
+{"qid": "S70", "question": "辨識結果準確嗎？", "gold": ["LS04"], "category": "洗標辨識系統"}
+{"qid": "O01", "question": "台積電今天股價多少？", "gold": [], "category": "範圍外"}
+{"qid": "O02", "question": "幫我推薦台北好吃的牛肉麵", "gold": [], "category": "範圍外"}
+{"qid": "O03", "question": "洗衣機的馬達壞掉要怎麼自己修？", "gold": [], "category": "範圍外"}
+{"qid": "O04", "question": "Python 的 list 和 tuple 差在哪？", "gold": [], "category": "範圍外"}

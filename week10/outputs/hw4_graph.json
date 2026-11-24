@@ -1,0 +1,4849 @@
+{
+ "nodes": [
+  {
+   "id": "VideoRAG",
+   "type": "METHOD",
+   "community": 0,
+   "description": "a novel framework for retrieval-augmented generation over video corpus a novel framework for dynamically retrieving videos based on their relevance with queries a large foundation model for video-text retrieval proposed video-retrieval and generation method an emerging approach for mitigating factual inaccuracies in RAG systems recent study considering video content to handle user queries a method for handling videos a novel framework introduced to address limitations of existing RAG frameworks proposed method for answering queries with relevant videos introduced frame selection model for retr",
+   "chunks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    16,
+    18,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    35,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    64,
+    65
+   ]
+  },
+  {
+   "id": "Sungeun Lee",
+   "type": "PERSON",
+   "community": null,
+   "description": "one of the authors of the paper",
+   "chunks": [
+    0
+   ]
+  },
+  {
+   "id": "KAIST",
+   "type": "ORGANIZATION",
+   "community": null,
+   "description": "affiliation of one of the authors",
+   "chunks": [
+    0
+   ]
+  },
+  {
+   "id": "DeepAuto.ai",
+   "type": "ORGANIZATION",
+   "community": null,
+   "description": "affiliation of one of the authors",
+   "chunks": [
+    0
+   ]
+  },
+  {
+   "id": "Soyeon Jeong",
+   "type": "PERSON",
+   "community": null,
+   "description": "co-author of the paper",
+   "chunks": [
+    0
+   ]
+  },
+  {
+   "id": "Kangsan Kim",
+   "type": "PERSON",
+   "community": null,
+   "description": "co-author of the paper",
+   "chunks": [
+    0
+   ]
+  },
+  {
+   "id": "Jinheon Baek",
+   "type": "PERSON",
+   "community": null,
+   "description": "co-author of the paper",
+   "chunks": [
+    0
+   ]
+  },
+  {
+   "id": "Sung Ju Hwang",
+   "type": "PERSON",
+   "community": null,
+   "description": "co-author of the paper",
+   "chunks": [
+    0
+   ]
+  },
+  {
+   "id": "RAG",
+   "type": "MODEL",
+   "community": 8,
+   "description": "Retrieval-Augmented Generation approach for generating answers grounded in retrieved content a type of framework for retrieval and generation Relevant Answer Generation model a retrieval and generation framework Reinforced Augmented Generation Retrieval-Augmented Generation model used in the framework",
+   "chunks": [
+    0,
+    4,
+    7,
+    9,
+    28,
+    42,
+    43,
+    49
+   ]
+  },
+  {
+   "id": "videos",
+   "type": "DATASET",
+   "community": 7,
+   "description": "unexplored medium providing multimodal richness for RAG augmentation an expanding yet underutilized medium providing multimodal richness large video corpus used for retrieval",
+   "chunks": [
+    0,
+    4,
+    5,
+    8,
+    42
+   ]
+  },
+  {
+   "id": "queries",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "queries",
+   "chunks": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": "Large Video Language Models (LVLMs)",
+   "type": "MODEL",
+   "community": null,
+   "description": "recent models enabling the direct processing of video content advanced models capable of processing video content",
+   "chunks": [
+    1,
+    8
+   ]
+  },
+  {
+   "id": "k-means++ clustering",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "a strategy to extract the most informative subset of frames a strategy to extract textual information from videos a method for clustering data some method focusing on identifying query-relevant frames within a specified video a clustering algorithm algorithm for selecting informative frames clustering algorithm used in video segmentation a method used for automatic dataset collection a method for selecting informative frames clustering algorithm a specific clustering algorithm used for reducing frame selection space a method for selecting initial centroids in k-means clustering a clustering al",
+   "chunks": [
+    1,
+    2,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    18,
+    19,
+    23,
+    26,
+    28,
+    30,
+    31,
+    32,
+    33,
+    35,
+    36,
+    40,
+    41,
+    42,
+    44,
+    45,
+    46,
+    50,
+    51,
+    52,
+    53,
+    54,
+    56,
+    57,
+    58,
+    59,
+    64,
+    65
+   ]
+  },
+  {
+   "id": "WikiHowQA",
+   "type": "DATASET",
+   "community": 0,
+   "description": "a dataset used for validation a dataset for question answering dataset consisting of query-answer pairs a dataset for evaluating models on video-based question answering another video question answering dataset question answering dataset A dataset for question answering tasks. a dataset offering a wide range of instructional questions extracted from the WikiHow webpage a question answering dataset dataset for reference answers Question answering dataset A model for question answering. a dataset for evaluation A dataset for question answering dataset used for question answering tasks subset of ",
+   "chunks": [
+    1,
+    2,
+    6,
+    9,
+    10,
+    11,
+    12,
+    20,
+    21,
+    23,
+    24,
+    26,
+    27,
+    28,
+    30,
+    31,
+    32,
+    35,
+    36,
+    37,
+    40,
+    41,
+    42,
+    44,
+    45,
+    46,
+    48,
+    49,
+    51,
+    55,
+    57,
+    58,
+    59,
+    65
+   ]
+  },
+  {
+   "id": "InternVideo2",
+   "type": "MODEL",
+   "community": 0,
+   "description": "a dataset used for validation a model for image-text retrieval a model for video retrieval model for video retrieval and generation a video dataset internal video model retrieval model language model for retrieval Model used for comparison an internal video model A model used in the study a model used in VideoRAG experiments an LVLM explicitly trained for semantic alignment between videos and texts a model for video retrieval and generation A model for video retrieval and generation a model for video summarization",
+   "chunks": [
+    1,
+    2,
+    6,
+    9,
+    10,
+    11,
+    12,
+    24,
+    25,
+    26,
+    28,
+    30,
+    32,
+    36,
+    47,
+    57,
+    58,
+    59
+   ]
+  },
+  {
+   "id": "ROUGE-L",
+   "type": "METRIC",
+   "community": 0,
+   "description": "a metric used for evaluation a metric for evaluating the quality of generated summaries a metric for evaluating summaries metric used for evaluation a metric for evaluating model performance a metric for evaluating retrieval performance rouge-l metric measures the longest common subsequence between generated and ground truth answers Metric for evaluation A metric for evaluating text summarization quality. A metric for evaluation A metric for evaluating text summarization quality a metric for evaluating automatic summarization quality evaluation metric for retrieval and generation performance a",
+   "chunks": [
+    1,
+    2,
+    6,
+    9,
+    10,
+    11,
+    12,
+    24,
+    26,
+    27,
+    28,
+    30,
+    31,
+    32,
+    41,
+    44,
+    53,
+    57,
+    58,
+    59
+   ]
+  },
+  {
+   "id": "https://github.com/starsuzi/VideoRAG",
+   "type": "ORGANIZATION",
+   "community": null,
+   "description": "the repository where the code is available",
+   "chunks": [
+    1
+   ]
+  },
+  {
+   "id": "LVLMs",
+   "type": "MODEL",
+   "community": 1,
+   "description": "large video language models typical LVLM enabling joint processing of multimodal inputs a language-video language model a model enabling the joint processing of multimodal information large vocabulary language models large vision-language models used by VideoRAG Large Video Language Models large multimodal language models powering the generation process various large language video models large language model variants used for synthetic data generation large language models used for generating questions a large video language model for generation",
+   "chunks": [
+    1,
+    8,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    41,
+    42,
+    46,
+    47,
+    48,
+    49,
+    53
+   ]
+  },
+  {
+   "id": "textual information",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "textual information",
+   "chunks": [
+    1,
+    8
+   ]
+  },
+  {
+   "id": "Lewis et al.",
+   "type": "PERSON",
+   "community": null,
+   "description": "authors of the referenced work authors of the paper the author group of the paper Authors of the paper cited authors Authors of the cited paper cited authors but not used in the current text authors of the cited work",
+   "chunks": [
+    2,
+    10,
+    11,
+    24,
+    31,
+    44,
+    55,
+    56,
+    57,
+    59,
+    62
+   ]
+  },
+  {
+   "id": "large vision-language models",
+   "type": "MODEL",
+   "community": 10,
+   "description": "standard for addressing diverse tasks",
+   "chunks": [
+    3
+   ]
+  },
+  {
+   "id": "textual and multimodal corpora",
+   "type": "DATASET",
+   "community": 10,
+   "description": "trained on extensive textual and multimodal data",
+   "chunks": [
+    3
+   ]
+  },
+  {
+   "id": "factually incorrect outputs",
+   "type": "RESULT",
+   "community": 10,
+   "description": "generated by large vision-language models",
+   "chunks": [
+    3
+   ]
+  },
+  {
+   "id": "parametric knowledge",
+   "type": "CONCEPT",
+   "community": 10,
+   "description": "knowledge encoded in large-scale model parameters",
+   "chunks": [
+    3
+   ]
+  },
+  {
+   "id": "appliance",
+   "type": "TASK",
+   "community": null,
+   "description": "various real-world applications of RAG approaches",
+   "chunks": [
+    4
+   ]
+  },
+  {
+   "id": "text",
+   "type": "DATASET",
+   "community": 8,
+   "description": "textual content used by existing RAG approaches",
+   "chunks": [
+    4
+   ]
+  },
+  {
+   "id": "image",
+   "type": "DATASET",
+   "community": 8,
+   "description": "images explored by some recent RAG attempts",
+   "chunks": [
+    4,
+    40,
+    42
+   ]
+  },
+  {
+   "id": "temporal dynamics",
+   "type": "CONCEPT",
+   "community": 7,
+   "description": "part of videos capturing complex processes temporal changes in visual context",
+   "chunks": [
+    5,
+    6
+   ]
+  },
+  {
+   "id": "spatial details",
+   "type": "CONCEPT",
+   "community": 7,
+   "description": "part of videos capturing complex processes",
+   "chunks": [
+    5
+   ]
+  },
+  {
+   "id": "multimodal cues",
+   "type": "CONCEPT",
+   "community": 7,
+   "description": "part of videos capturing complex processes",
+   "chunks": [
+    5
+   ]
+  },
+  {
+   "id": "static modalities",
+   "type": "CONCEPT",
+   "community": 7,
+   "description": "text and images that fail to convey complex processes",
+   "chunks": [
+    5
+   ]
+  },
+  {
+   "id": "YouTube",
+   "type": "ORGANIZATION",
+   "community": 24,
+   "description": "video-sharing platform with diverse, high-quality video data the source of HowTo100M dataset",
+   "chunks": [
+    5,
+    21
+   ]
+  },
+  {
+   "id": "educational tutorials",
+   "type": "DATASET",
+   "community": 6,
+   "description": "useful video content for user queries",
+   "chunks": [
+    5
+   ]
+  },
+  {
+   "id": "scientific demonstrations",
+   "type": "DATASET",
+   "community": 6,
+   "description": "useful video content for user queries",
+   "chunks": [
+    5
+   ]
+  },
+  {
+   "id": "personal experiences",
+   "type": "DATASET",
+   "community": 6,
+   "description": "useful video content for user queries",
+   "chunks": [
+    5
+   ]
+  },
+  {
+   "id": "real-time events",
+   "type": "DATASET",
+   "community": 6,
+   "description": "useful video content for user queries",
+   "chunks": [
+    5
+   ]
+  },
+  {
+   "id": "video-sharing platform",
+   "type": "CONCEPT",
+   "community": 24,
+   "description": "video-sharing platform",
+   "chunks": [
+    5
+   ]
+  },
+  {
+   "id": "useful video content",
+   "type": "CONCEPT",
+   "community": 6,
+   "description": "useful video content",
+   "chunks": [
+    5
+   ]
+  },
+  {
+   "id": "consider",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "consider",
+   "chunks": [
+    5
+   ]
+  },
+  {
+   "id": "identify",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "identify",
+   "chunks": [
+    5
+   ]
+  },
+  {
+   "id": "other studies",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "other studies",
+   "chunks": [
+    6
+   ]
+  },
+  {
+   "id": "more general-use cases",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "more general-use cases",
+   "chunks": [
+    6
+   ]
+  },
+  {
+   "id": "off-the-shelf text-based RAG pipelines",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "off-the-shelf text-based RAG pipelines",
+   "chunks": [
+    6
+   ]
+  },
+  {
+   "id": "multimodal richness",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "multimodal richness",
+   "chunks": [
+    6
+   ]
+  },
+  {
+   "id": "visual context",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "visual context",
+   "chunks": [
+    6
+   ]
+  },
+  {
+   "id": "video corpus",
+   "type": "DATASET",
+   "community": 0,
+   "description": "a large collection of videos used for retrieval",
+   "chunks": [
+    7
+   ]
+  },
+  {
+   "id": "visual and textual elements",
+   "type": "CONCEPT",
+   "community": null,
+   "description": "both visual and textual information integrated into answer-generation process modal richness included in the RAG pipeline",
+   "chunks": [
+    7,
+    44
+   ]
+  },
+  {
+   "id": "frames",
+   "type": "CONCEPT",
+   "community": 1,
+   "description": "individual segments of video content a unit of time in video",
+   "chunks": [
+    8,
+    16,
+    25,
+    28
+   ]
+  },
+  {
+   "id": "HowTo100M",
+   "type": "DATASET",
+   "community": 0,
+   "description": "dataset including query-video pairs without answers a dataset including query-video pairs without answers a comprehensive collection of instruction videos sourced from YouTube a dataset used for evaluation the dataset containing labeled videos and queries A dataset for how-to videos. corpus provides pairs of query and videos providing pairs of query and videos",
+   "chunks": [
+    9,
+    10,
+    21,
+    22,
+    23,
+    24,
+    27,
+    37,
+    45
+   ]
+  },
+  {
+   "id": "Automatic Speech Recognition",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "technique used to generate textual transcripts from videos Techniques for converting audio into text. used to generate textual transcripts",
+   "chunks": [
+    9,
+    20,
+    44
+   ]
+  },
+  {
+   "id": "frame selection model",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "frame selection model",
+   "chunks": [
+    9
+   ]
+  },
+  {
+   "id": "Ery-answer pairs",
+   "type": "TASK",
+   "community": null,
+   "description": "a type of question-answer pair",
+   "chunks": [
+    10
+   ]
+  },
+  {
+   "id": "mashing ingredients",
+   "type": "CONCEPT",
+   "community": null,
+   "description": "an action related to the recipe",
+   "chunks": [
+    10
+   ]
+  },
+  {
+   "id": "homemade prison beer",
+   "type": "CONCEPT",
+   "community": null,
+   "description": "a type of alcoholic beverage",
+   "chunks": [
+    10
+   ]
+  },
+  {
+   "id": "fermentation",
+   "type": "CONCEPT",
+   "community": null,
+   "description": "the process of converting sugars into alcohol and carbon dioxide",
+   "chunks": [
+    10
+   ]
+  },
+  {
+   "id": "Retriever",
+   "type": "METHOD",
+   "community": 3,
+   "description": "a component of RAG that retrieves documents from an external corpus a method for identifying query-relevant videos a tool for selecting relevant documents from a corpus",
+   "chunks": [
+    11,
+    14,
+    15,
+    40
+   ]
+  },
+  {
+   "id": "Wikipedia",
+   "type": "DATASET",
+   "community": 3,
+   "description": "an external knowledge source used by RAG does not contain specific procedural guidance on making a clay rose",
+   "chunks": [
+    11,
+    56
+   ]
+  },
+  {
+   "id": "Lewis",
+   "type": "PERSON",
+   "community": null,
+   "description": "author of the paper One of the authors of the paper",
+   "chunks": [
+    11,
+    58
+   ]
+  },
+  {
+   "id": "Sim(q, k)",
+   "type": "METHOD",
+   "community": 21,
+   "description": "measures representational similarity over the embedding space",
+   "chunks": [
+    12
+   ]
+  },
+  {
+   "id": "Model(q, K)",
+   "type": "METHOD",
+   "community": 21,
+   "description": "generates an answer y by incorporating retrieved knowledge elements",
+   "chunks": [
+    12
+   ]
+  },
+  {
+   "id": "LLMs",
+   "type": "MODEL",
+   "community": null,
+   "description": "large language models Large Language Models",
+   "chunks": [
+    12,
+    42
+   ]
+  },
+  {
+   "id": "k",
+   "type": "RESULT",
+   "community": null,
+   "description": "number of clusters number of top videos to be retrieved number of retrieved videos",
+   "chunks": [
+    12,
+    15,
+    16
+   ]
+  },
+  {
+   "id": "n",
+   "type": "RESULT",
+   "community": null,
+   "description": "number of frames in a video",
+   "chunks": [
+    12
+   ]
+  },
+  {
+   "id": "v1, v2, ..., vn",
+   "type": "CONCEPT",
+   "community": null,
+   "description": "visual frames in a video",
+   "chunks": [
+    12
+   ]
+  },
+  {
+   "id": "t1, t2, ..., tn",
+   "type": "CONCEPT",
+   "community": null,
+   "description": "tokens in the associated textual data",
+   "chunks": [
+    12
+   ]
+  },
+  {
+   "id": "q",
+   "type": "CONCEPT",
+   "community": 3,
+   "description": "query number of user queries query parameter",
+   "chunks": [
+    12,
+    14,
+    15,
+    16,
+    17,
+    18
+   ]
+  },
+  {
+   "id": "y",
+   "type": "CONCEPT",
+   "community": null,
+   "description": "answer generated by the model",
+   "chunks": [
+    12
+   ]
+  },
+  {
+   "id": "˜V",
+   "type": "DATASET",
+   "community": 3,
+   "description": "sequence of video frames the optimal subset of frames video dataset",
+   "chunks": [
+    13,
+    15,
+    17,
+    18
+   ]
+  },
+  {
+   "id": "t",
+   "type": "DATASET",
+   "community": null,
+   "description": "sequence of tokens representing textual data number of frames per video",
+   "chunks": [
+    13,
+    16
+   ]
+  },
+  {
+   "id": "VisionEncoder",
+   "type": "CONCEPT",
+   "community": 1,
+   "description": "specialized component of LVLM processing video frames",
+   "chunks": [
+    13
+   ]
+  },
+  {
+   "id": "TextEncoder",
+   "type": "CONCEPT",
+   "community": 1,
+   "description": "specialized component of LVLM processing textual information",
+   "chunks": [
+    13
+   ]
+  },
+  {
+   "id": "Fvisual",
+   "type": "RESULT",
+   "community": 1,
+   "description": "sequence of visual feature embeddings",
+   "chunks": [
+    13,
+    14
+   ]
+  },
+  {
+   "id": "Ftext",
+   "type": "RESULT",
+   "community": 1,
+   "description": "corresponding feature embeddings",
+   "chunks": [
+    13,
+    14
+   ]
+  },
+  {
+   "id": "fvideo",
+   "type": "RESULT",
+   "community": 3,
+   "description": "video representation capturing both visual and textual features",
+   "chunks": [
+    13,
+    15
+   ]
+  },
+  {
+   "id": "cosine similarity",
+   "type": "METRIC",
+   "community": null,
+   "description": "a metric for measuring the similarity between two non-zero vectors of an inner product space",
+   "chunks": [
+    15
+   ]
+  },
+  {
+   "id": "C",
+   "type": "CONCEPT",
+   "community": 3,
+   "description": "C",
+   "chunks": [
+    15
+   ]
+  },
+  {
+   "id": "fquery",
+   "type": "CONCEPT",
+   "community": 3,
+   "description": "fquery",
+   "chunks": [
+    15
+   ]
+  },
+  {
+   "id": "Query",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "Input to the model for both retrieval and generation tasks.",
+   "chunks": [
+    16,
+    52
+   ]
+  },
+  {
+   "id": "retrieved videos",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "retrieved videos",
+   "chunks": [
+    16
+   ]
+  },
+  {
+   "id": "G",
+   "type": "TASK",
+   "community": null,
+   "description": "generating videos containing a large number of visual frames",
+   "chunks": [
+    17
+   ]
+  },
+  {
+   "id": "Comb(·)",
+   "type": "CONCEPT",
+   "community": 3,
+   "description": "a selection function that randomly samples a subset of m frames from total n frames within the video a function that generates possible frame subsets",
+   "chunks": [
+    17,
+    18
+   ]
+  },
+  {
+   "id": "f",
+   "type": "CONCEPT",
+   "community": 3,
+   "description": "a scoring function that evaluates and assigns a relevance score to selected frames a function used in the optimization process",
+   "chunks": [
+    17,
+    18,
+    19
+   ]
+  },
+  {
+   "id": "frame selection space",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "frame selection space",
+   "chunks": [
+    18
+   ]
+  },
+  {
+   "id": "CLIP",
+   "type": "METHOD",
+   "community": 3,
+   "description": "a model capable of processing visual features model used to extract features from frames used to obtain representations for frames a pre-trained model for image-text matching",
+   "chunks": [
+    19,
+    50,
+    51,
+    53
+   ]
+  },
+  {
+   "id": "cross-entropy",
+   "type": "METRIC",
+   "community": null,
+   "description": "a loss function used for optimization A conventional loss function used for optimization.",
+   "chunks": [
+    19,
+    20
+   ]
+  },
+  {
+   "id": "frame selection",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "frame selection",
+   "chunks": [
+    19,
+    32
+   ]
+  },
+  {
+   "id": "AudioToText",
+   "type": "MODEL",
+   "community": 12,
+   "description": "A model for converting audio into text.",
+   "chunks": [
+    20
+   ]
+  },
+  {
+   "id": "conventional loss functions",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "conventional loss functions",
+   "chunks": [
+    20
+   ]
+  },
+  {
+   "id": "Audio(V)",
+   "type": "CONCEPT",
+   "community": 12,
+   "description": "Audio(V)",
+   "chunks": [
+    20
+   ]
+  },
+  {
+   "id": "textual content",
+   "type": "CONCEPT",
+   "community": 12,
+   "description": "textual content",
+   "chunks": [
+    20
+   ]
+  },
+  {
+   "id": "WikiHow",
+   "type": "DATASET",
+   "community": 0,
+   "description": "the source of WikiHowQA dataset a dataset containing annotated queries annotated in 10 categories",
+   "chunks": [
+    21,
+    33,
+    34
+   ]
+  },
+  {
+   "id": "NAÏVE",
+   "type": "MODEL",
+   "community": 0,
+   "description": "a baseline model generating answers from queries without additional context baseline approach that uses videos and general textual documents",
+   "chunks": [
+    22,
+    35
+   ]
+  },
+  {
+   "id": "TEXTRAG (BM25)",
+   "type": "MODEL",
+   "community": 0,
+   "description": "a text-based RAG model using BM25 for document retrieval",
+   "chunks": [
+    22
+   ]
+  },
+  {
+   "id": "TEXTRAG (DPR)",
+   "type": "MODEL",
+   "community": 0,
+   "description": "a text-based RAG model using DPR for document retrieval",
+   "chunks": [
+    22
+   ]
+  },
+  {
+   "id": "TextImageRAG",
+   "type": "MODEL",
+   "community": 2,
+   "description": "a multimodal RAG model following conventional approaches A variant of TextRAG using image features A model combining text and image features for retrieval method",
+   "chunks": [
+    22,
+    27,
+    30,
+    31,
+    37
+   ]
+  },
+  {
+   "id": "TEXTVIDEORAG",
+   "type": "MODEL",
+   "community": 2,
+   "description": "a video-based RAG model following previous methods A variant of VideoRAG A model combining text and video features for retrieval method",
+   "chunks": [
+    22,
+    27,
+    30,
+    31,
+    37
+   ]
+  },
+  {
+   "id": "VIDEORAG-V",
+   "type": "METHOD",
+   "community": 2,
+   "description": "one variant of VideoRAG that uses video frames as context A model for video retrieval. A variant of VideoRAG retrieves the relevant video that illustrates the process of baking cookies on a car dashboard utilizes external video content to produce more precise, contextually rich, and actionable answers produces more precise, contextually rich, and actionable answers retrieves a relevant video demonstrating how to make a clay rose and generates a concise and accurate response",
+   "chunks": [
+    23,
+    27,
+    30,
+    36,
+    39,
+    56,
+    60
+   ]
+  },
+  {
+   "id": "VIDEOR2https://www.wikihow.com/Main-Page AG-VT",
+   "type": "MODEL",
+   "community": 0,
+   "description": "another variant of VideoRAG that jointly uses video frames and textual transcripts",
+   "chunks": [
+    23
+   ]
+  },
+  {
+   "id": "Oracle VIDEORAG",
+   "type": "MODEL",
+   "community": 0,
+   "description": "an oracle version of VideoRAG that uses groundtruth video labels",
+   "chunks": [
+    23
+   ]
+  },
+  {
+   "id": "BLEU-4",
+   "type": "METRIC",
+   "community": null,
+   "description": "calculates the overlap of n-grams (up to 4) between generated and reference answers A metric for evaluating text generation quality.",
+   "chunks": [
+    24,
+    27
+   ]
+  },
+  {
+   "id": "BERTScore",
+   "type": "METRIC",
+   "community": 0,
+   "description": "measures semantic alignment between generated and reference answers by comparing BERT embeddings A metric for evaluating text similarity. A metric for evaluating text similarity a metric for evaluating video summarization quality",
+   "chunks": [
+    24,
+    27,
+    31,
+    53
+   ]
+  },
+  {
+   "id": "G-Eval",
+   "type": "METRIC",
+   "community": 13,
+   "description": "evaluates generated answers using LLMs like GPT-4o-mini on a 5-point Likert scale A metric for evaluating video retrieval quality. proxy for judgment A method for evaluating generated responses against ground truth answers.",
+   "chunks": [
+    24,
+    27,
+    38,
+    65,
+    66
+   ]
+  },
+  {
+   "id": "LLaVA-Video",
+   "type": "MODEL",
+   "community": 14,
+   "description": "LVLM of 7B parameters for generation 7B parameter language model for generation A large language model for video tasks. known for state-of-the-art performance on video understanding and relevant tasks",
+   "chunks": [
+    24,
+    25,
+    27,
+    48
+   ]
+  },
+  {
+   "id": "InternVL 2.5",
+   "type": "MODEL",
+   "community": 14,
+   "description": "LVLM of 8B parameters for generation A model for video retrieval. a model used by VideoRAG known for state-of-the-art performance on video understanding and relevant tasks",
+   "chunks": [
+    24,
+    27,
+    32,
+    33,
+    48
+   ]
+  },
+  {
+   "id": "Qwen-2.5-VL",
+   "type": "MODEL",
+   "community": 14,
+   "description": "LVLM of 3B parameters for generation 3B parameter language model for generation A model for video retrieval. known for state-of-the-art performance on video understanding and relevant tasks",
+   "chunks": [
+    24,
+    25,
+    27,
+    48
+   ]
+  },
+  {
+   "id": "GPT-4o-mini",
+   "type": "MODEL",
+   "community": 13,
+   "description": "LLM used for G-Eval metric",
+   "chunks": [
+    24
+   ]
+  },
+  {
+   "id": "Table 14",
+   "type": "CONCEPT",
+   "community": 13,
+   "description": "A table describing the prompt template for G-Eval and evaluation criteria.",
+   "chunks": [
+    24,
+    66
+   ]
+  },
+  {
+   "id": "InternVL",
+   "type": "MODEL",
+   "community": 20,
+   "description": "2.5B parameter language model for generation",
+   "chunks": [
+    25
+   ]
+  },
+  {
+   "id": "Whisper",
+   "type": "METHOD",
+   "community": null,
+   "description": "speech-to-text conversion tool",
+   "chunks": [
+    25
+   ]
+  },
+  {
+   "id": "Table 1",
+   "type": "RESULT",
+   "community": null,
+   "description": "performance table showcasing different models with varying types of retrieved knowledge Shows the performance comparison between VIDEORAG and Oracle setting",
+   "chunks": [
+    25,
+    29
+   ]
+  },
+  {
+   "id": "NAÏVE baseline",
+   "type": "MODEL",
+   "community": 2,
+   "description": "baseline model for comparison performance is improved by incorporating external knowledge generating a generic response",
+   "chunks": [
+    25,
+    34,
+    38
+   ]
+  },
+  {
+   "id": "RAG models",
+   "type": "METHOD",
+   "community": 0,
+   "description": "retrieval-Augmented Generation models",
+   "chunks": [
+    25
+   ]
+  },
+  {
+   "id": "textual RAG baselines",
+   "type": "MODEL",
+   "community": null,
+   "description": "text-based retrieval-Augmented Generation baselines",
+   "chunks": [
+    25
+   ]
+  },
+  {
+   "id": "text-image RAG baselines",
+   "type": "MODEL",
+   "community": null,
+   "description": "text-image-based retrieval-Augmented Generation baselines",
+   "chunks": [
+    25
+   ]
+  },
+  {
+   "id": "text-video RAG baselines",
+   "type": "MODEL",
+   "community": null,
+   "description": "text-video-based retrieval-Augmented Generation baselines",
+   "chunks": [
+    25
+   ]
+  },
+  {
+   "id": "parameters",
+   "type": "CONCEPT",
+   "community": 20,
+   "description": "parameters",
+   "chunks": [
+    25
+   ]
+  },
+  {
+   "id": "Oracle-V",
+   "type": "RESULT",
+   "community": 2,
+   "description": "The best results using ideal retrieval results.",
+   "chunks": [
+    27
+   ]
+  },
+  {
+   "id": "Oracle-VT",
+   "type": "RESULT",
+   "community": 2,
+   "description": "The second-best results using ideal retrieval results.",
+   "chunks": [
+    27
+   ]
+  },
+  {
+   "id": "VideoRAG-VT",
+   "type": "MODEL",
+   "community": 2,
+   "description": "A variant of Videorag-V with improved performance. A variant of VideoRAG An improved version of VideoRAG for video retrieval and generation an instantiation of VideoRAG with additional features outperforms all baselines across all categories method",
+   "chunks": [
+    27,
+    30,
+    31,
+    33,
+    34,
+    37
+   ]
+  },
+  {
+   "id": "Principal Component Analysis",
+   "type": "CONCEPT",
+   "community": null,
+   "description": "a technique used for visualization",
+   "chunks": [
+    28
+   ]
+  },
+  {
+   "id": "PCA",
+   "type": "CONCEPT",
+   "community": null,
+   "description": "short form of Principal Component Analysis",
+   "chunks": [
+    28
+   ]
+  },
+  {
+   "id": "Oracle setting",
+   "type": "RESULT",
+   "community": 22,
+   "description": "An ideal scenario with perfectly relevant video retrieval an ideal scenario with perfectly relevant video retrieval",
+   "chunks": [
+    29,
+    54
+   ]
+  },
+  {
+   "id": "Table 2",
+   "type": "RESULT",
+   "community": null,
+   "description": "Reports results with varying modalities in video retrieval",
+   "chunks": [
+    29
+   ]
+  },
+  {
+   "id": "performance",
+   "type": "CONCEPT",
+   "community": 22,
+   "description": "performance",
+   "chunks": [
+    29
+   ]
+  },
+  {
+   "id": "Video retrieval",
+   "type": "CONCEPT",
+   "community": 23,
+   "description": "Retrieving videos based on user queries",
+   "chunks": [
+    29,
+    55
+   ]
+  },
+  {
+   "id": "textual features",
+   "type": "CONCEPT",
+   "community": 23,
+   "description": "textual features",
+   "chunks": [
+    29
+   ]
+  },
+  {
+   "id": "Food & Entertaining",
+   "type": "TASK",
+   "community": 2,
+   "description": "A category in performance breakdown queries often benefit from visual details",
+   "chunks": [
+    30,
+    34
+   ]
+  },
+  {
+   "id": "Hobbies & Crafts",
+   "type": "TASK",
+   "community": null,
+   "description": "A category in performance breakdown",
+   "chunks": [
+    30
+   ]
+  },
+  {
+   "id": "Home & Garden",
+   "type": "TASK",
+   "community": null,
+   "description": "A category in performance breakdown",
+   "chunks": [
+    30
+   ]
+  },
+  {
+   "id": "Pets & Animals",
+   "type": "TASK",
+   "community": null,
+   "description": "A category in performance breakdown",
+   "chunks": [
+    30
+   ]
+  },
+  {
+   "id": "Cars & Vehicles",
+   "type": "TASK",
+   "community": null,
+   "description": "A category in performance breakdown",
+   "chunks": [
+    30
+   ]
+  },
+  {
+   "id": "Personal Care & Style",
+   "type": "TASK",
+   "community": null,
+   "description": "A category in performance breakdown",
+   "chunks": [
+    30
+   ]
+  },
+  {
+   "id": "Sports & Fitness",
+   "type": "TASK",
+   "community": null,
+   "description": "A category in performance breakdown",
+   "chunks": [
+    30
+   ]
+  },
+  {
+   "id": "Health",
+   "type": "TASK",
+   "community": null,
+   "description": "A category in performance breakdown",
+   "chunks": [
+    30
+   ]
+  },
+  {
+   "id": "Education & Communications",
+   "type": "TASK",
+   "community": null,
+   "description": "A category in performance breakdown",
+   "chunks": [
+    30
+   ]
+  },
+  {
+   "id": "TextRAG(BM25)",
+   "type": "MODEL",
+   "community": 2,
+   "description": "A variant of TextRAG using BM25",
+   "chunks": [
+    30
+   ]
+  },
+  {
+   "id": "TEXTRAG",
+   "type": "MODEL",
+   "community": 2,
+   "description": "A model for text-based retrieval DPR-based method retrieves an irrelevant document about a person named Rose using BM25",
+   "chunks": [
+    31,
+    37,
+    56,
+    60
+   ]
+  },
+  {
+   "id": "Health Education & Communications",
+   "type": "ORGANIZATION",
+   "community": null,
+   "description": "The field of study",
+   "chunks": [
+    31
+   ]
+  },
+  {
+   "id": "Figure 4",
+   "type": "RESULT",
+   "community": null,
+   "description": "a figure showing the optimal ratio for balancing textual and visual features",
+   "chunks": [
+    32
+   ]
+  },
+  {
+   "id": "Figure 3",
+   "type": "RESULT",
+   "community": null,
+   "description": "a figure highlighting the complementary contributions of textual and visual features",
+   "chunks": [
+    32
+   ]
+  },
+  {
+   "id": "Table 3",
+   "type": "RESULT",
+   "community": null,
+   "description": "a table showing the effectiveness of frame selection",
+   "chunks": [
+    32
+   ]
+  },
+  {
+   "id": "Table 9",
+   "type": "RESULT",
+   "community": null,
+   "description": "a table highlighting qualitative results for retrieval",
+   "chunks": [
+    32
+   ]
+  },
+  {
+   "id": "Table 10",
+   "type": "RESULT",
+   "community": null,
+   "description": "a table highlighting qualitative results for generation",
+   "chunks": [
+    32
+   ]
+  },
+  {
+   "id": "Table 11",
+   "type": "RESULT",
+   "community": null,
+   "description": "a table highlighting qualitative results for generation",
+   "chunks": [
+    32
+   ]
+  },
+  {
+   "id": "Figure 5",
+   "type": "RESULT",
+   "community": null,
+   "description": "a figure showing the performance of VideoRAG with different InternVL2.5 sizes",
+   "chunks": [
+    32
+   ]
+  },
+  {
+   "id": "healthy spinach and garlic dish",
+   "type": "CONCEPT",
+   "community": null,
+   "description": "example query for Food & Entertaining category",
+   "chunks": [
+    34
+   ]
+  },
+  {
+   "id": "videos with general textual documents",
+   "type": "METHOD",
+   "community": 2,
+   "description": "approach achieves slightly degraded performance",
+   "chunks": [
+    34
+   ]
+  },
+  {
+   "id": "Human G-Eval",
+   "type": "METHOD",
+   "community": null,
+   "description": "naïve method",
+   "chunks": [
+    37
+   ]
+  },
+  {
+   "id": "Human Evaluation",
+   "type": "TASK",
+   "community": 2,
+   "description": "human evaluation task",
+   "chunks": [
+    37,
+    38
+   ]
+  },
+  {
+   "id": "5-point Likert scale",
+   "type": "METRIC",
+   "community": null,
+   "description": "evaluation metric",
+   "chunks": [
+    37
+   ]
+  },
+  {
+   "id": "12 evaluators",
+   "type": "PERSON",
+   "community": null,
+   "description": "number of evaluators",
+   "chunks": [
+    37
+   ]
+  },
+  {
+   "id": "Likert scale",
+   "type": "METRIC",
+   "community": null,
+   "description": "a 5-point Likert scale",
+   "chunks": [
+    38
+   ]
+  },
+  {
+   "id": "Table 6",
+   "type": "RESULT",
+   "community": null,
+   "description": "results showing VideoRAG achieves highest performance in human evaluation",
+   "chunks": [
+    38
+   ]
+  },
+  {
+   "id": "Spearman’s correlation coefficient",
+   "type": "METRIC",
+   "community": 15,
+   "description": "coefficient measuring inter-annotator agreement",
+   "chunks": [
+    38
+   ]
+  },
+  {
+   "id": "0.632",
+   "type": "RESULT",
+   "community": 15,
+   "description": "inter-annotator agreement coefficient confirming high reliability of assessments",
+   "chunks": [
+    38
+   ]
+  },
+  {
+   "id": "0.588",
+   "type": "RESULT",
+   "community": 16,
+   "description": "agreement between human- and model-based evaluations",
+   "chunks": [
+    38
+   ]
+  },
+  {
+   "id": "cookies on your car dashboard",
+   "type": "TASK",
+   "community": null,
+   "description": "query for baking cookies",
+   "chunks": [
+    38
+   ]
+  },
+  {
+   "id": "Table 5",
+   "type": "RESULT",
+   "community": null,
+   "description": "comparison of responses from different baselines",
+   "chunks": [
+    38
+   ]
+  },
+  {
+   "id": "inter-annotator agreement",
+   "type": "CONCEPT",
+   "community": 15,
+   "description": "inter-annotator agreement",
+   "chunks": [
+    38
+   ]
+  },
+  {
+   "id": "human- and model-based evaluations",
+   "type": "CONCEPT",
+   "community": 16,
+   "description": "human- and model-based evaluations",
+   "chunks": [
+    38
+   ]
+  },
+  {
+   "id": "generic response",
+   "type": "CONCEPT",
+   "community": 2,
+   "description": "generic response",
+   "chunks": [
+    38
+   ]
+  },
+  {
+   "id": "Multimodal RAG",
+   "type": "METHOD",
+   "community": 8,
+   "description": "an expansion of RAG to incorporate multimodal information",
+   "chunks": [
+    40
+   ]
+  },
+  {
+   "id": "spatial patterns",
+   "type": "CONCEPT",
+   "community": null,
+   "description": "oral dynamics and spatial patterns",
+   "chunks": [
+    42
+   ]
+  },
+  {
+   "id": "oral dynamics",
+   "type": "CONCEPT",
+   "community": null,
+   "description": "oral dynamics and spatial patterns",
+   "chunks": [
+    42
+   ]
+  },
+  {
+   "id": "code",
+   "type": "CONCEPT",
+   "community": 1,
+   "description": "code",
+   "chunks": [
+    42
+   ]
+  },
+  {
+   "id": "object detection",
+   "type": "CONCEPT",
+   "community": 1,
+   "description": "object detection",
+   "chunks": [
+    42
+   ]
+  },
+  {
+   "id": "action detection",
+   "type": "CONCEPT",
+   "community": 1,
+   "description": "action detection",
+   "chunks": [
+    42
+   ]
+  },
+  {
+   "id": "spatio-temporal dynamics",
+   "type": "CONCEPT",
+   "community": 1,
+   "description": "spatio-temporal dynamics",
+   "chunks": [
+    42
+   ]
+  },
+  {
+   "id": "event sequences",
+   "type": "CONCEPT",
+   "community": 1,
+   "description": "event sequences",
+   "chunks": [
+    42
+   ]
+  },
+  {
+   "id": "causal relationships",
+   "type": "CONCEPT",
+   "community": 1,
+   "description": "causal relationships",
+   "chunks": [
+    42
+   ]
+  },
+  {
+   "id": "context-aware descriptions",
+   "type": "CONCEPT",
+   "community": 1,
+   "description": "context-aware descriptions",
+   "chunks": [
+    42
+   ]
+  },
+  {
+   "id": "intricate scenarios",
+   "type": "CONCEPT",
+   "community": 1,
+   "description": "intricate scenarios",
+   "chunks": [
+    42
+   ]
+  },
+  {
+   "id": "zero-shot settings",
+   "type": "CONCEPT",
+   "community": 1,
+   "description": "scenarios where no prior training data is available",
+   "chunks": [
+    42,
+    43
+   ]
+  },
+  {
+   "id": "future work",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "future work",
+   "chunks": [
+    45
+   ]
+  },
+  {
+   "id": "Ethics Statement",
+   "type": "CONCEPT",
+   "community": null,
+   "description": "statement recommending careful evaluation of potential risks and mitigation strategies",
+   "chunks": [
+    46
+   ]
+  },
+  {
+   "id": "bias",
+   "type": "CONCEPT",
+   "community": 1,
+   "description": "bias",
+   "chunks": [
+    46
+   ]
+  },
+  {
+   "id": "bias detection and filtering",
+   "type": "RESULT",
+   "community": null,
+   "description": "strategies recommended for mitigating potential risks",
+   "chunks": [
+    47
+   ]
+  },
+  {
+   "id": "Table 13",
+   "type": "RESULT",
+   "community": 0,
+   "description": "contains the prompt used for question generation Dataset containing synthetic question-answer pairs for evaluation",
+   "chunks": [
+    49,
+    64
+   ]
+  },
+  {
+   "id": "prompt",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "prompt",
+   "chunks": [
+    49
+   ]
+  },
+  {
+   "id": "question-generation",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "question-generation",
+   "chunks": [
+    49
+   ]
+  },
+  {
+   "id": "GPT-4o",
+   "type": "MODEL",
+   "community": 0,
+   "description": "state-of-the-art language model used for synthetic data creation",
+   "chunks": [
+    50
+   ]
+  },
+  {
+   "id": "MLP",
+   "type": "METHOD",
+   "community": 17,
+   "description": "used to pass concatenated representations through layers",
+   "chunks": [
+    51
+   ]
+  },
+  {
+   "id": "cross-entropy loss",
+   "type": "METRIC",
+   "community": 25,
+   "description": "used for optimizing the network Used for optimizing the network.",
+   "chunks": [
+    51,
+    52
+   ]
+  },
+  {
+   "id": "8 candidate frames",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "8 candidate frames",
+   "chunks": [
+    51
+   ]
+  },
+  {
+   "id": "4 frames",
+   "type": "CONCEPT",
+   "community": 3,
+   "description": "4 frames",
+   "chunks": [
+    51
+   ]
+  },
+  {
+   "id": "3-layer MLPs",
+   "type": "CONCEPT",
+   "community": 17,
+   "description": "a type of neural network architecture",
+   "chunks": [
+    51,
+    53
+   ]
+  },
+  {
+   "id": "optimization",
+   "type": "CONCEPT",
+   "community": 25,
+   "description": "optimization",
+   "chunks": [
+    51
+   ]
+  },
+  {
+   "id": "methodology",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "methodology",
+   "chunks": [
+    51
+   ]
+  },
+  {
+   "id": "frame sampling space",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "frame sampling space",
+   "chunks": [
+    51
+   ]
+  },
+  {
+   "id": "Retrieved",
+   "type": "TASK",
+   "community": 9,
+   "description": "Task of selecting videos according to their relevance with queries. a method that selects videos according to their relevance with queries",
+   "chunks": [
+    52,
+    53
+   ]
+  },
+  {
+   "id": "Oracle",
+   "type": "TASK",
+   "community": 9,
+   "description": "Task of using ground truth videos for comparison. a method that uses ground truth videos annotated in data",
+   "chunks": [
+    52,
+    53
+   ]
+  },
+  {
+   "id": "Random",
+   "type": "METHOD",
+   "community": 9,
+   "description": "Task of randomly sampling videos for comparison. a method that randomly samples videos A random frame selection method",
+   "chunks": [
+    52,
+    53,
+    55
+   ]
+  },
+  {
+   "id": "True",
+   "type": "RESULT",
+   "community": 0,
+   "description": "Label assigned to top 3 combinations with highest similarities.",
+   "chunks": [
+    52
+   ]
+  },
+  {
+   "id": "False",
+   "type": "RESULT",
+   "community": 0,
+   "description": "Label assigned to bottom 3 combinations with lowest similarities.",
+   "chunks": [
+    52
+   ]
+  },
+  {
+   "id": "64C32",
+   "type": "RESULT",
+   "community": 0,
+   "description": "Number of possible combinations of 32 frames out of 64 candidate frames.",
+   "chunks": [
+    52
+   ]
+  },
+  {
+   "id": "40",
+   "type": "RESULT",
+   "community": 0,
+   "description": "Number of randomly sampled subsets from 64C32 combinations.",
+   "chunks": [
+    52
+   ]
+  },
+  {
+   "id": "64",
+   "type": "RESULT",
+   "community": 0,
+   "description": "Total number of candidate frames used for generation.",
+   "chunks": [
+    52
+   ]
+  },
+  {
+   "id": "32",
+   "type": "RESULT",
+   "community": 0,
+   "description": "Number of frames selected for each combination in generation.",
+   "chunks": [
+    52
+   ]
+  },
+  {
+   "id": "Representation",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "Output of the scoring function f, representing sampled frames and the query.",
+   "chunks": [
+    52
+   ]
+  },
+  {
+   "id": "Table 7",
+   "type": "RESULT",
+   "community": 0,
+   "description": "Dataset containing results of different video generation methods. a table showing the impact of videos on answer quality a table showing the impact of query-relevant videos on answer quality",
+   "chunks": [
+    52,
+    53,
+    54
+   ]
+  },
+  {
+   "id": "Video Set",
+   "type": "DATASET",
+   "community": 9,
+   "description": "a set of videos used in experiments",
+   "chunks": [
+    53
+   ]
+  },
+  {
+   "id": "LLaVA-Video (7B)",
+   "type": "MODEL",
+   "community": null,
+   "description": "a large language model for video generation",
+   "chunks": [
+    53
+   ]
+  },
+  {
+   "id": "random sampling",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "a method of selecting frames randomly",
+   "chunks": [
+    54
+   ]
+  },
+  {
+   "id": "uniform sampling",
+   "type": "CONCEPT",
+   "community": 18,
+   "description": "a method of selecting frames uniformly compares the performance of different sampling methods on the retrieval task",
+   "chunks": [
+    54,
+    56
+   ]
+  },
+  {
+   "id": "Table 8",
+   "type": "RESULT",
+   "community": null,
+   "description": "a table comparing different frame reduction methods",
+   "chunks": [
+    54
+   ]
+  },
+  {
+   "id": "query-relevant videos",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "query-relevant videos",
+   "chunks": [
+    54
+   ]
+  },
+  {
+   "id": "frame reduction",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "Reducing the number of frames in a video",
+   "chunks": [
+    54,
+    55
+   ]
+  },
+  {
+   "id": "SyntheticQA",
+   "type": "DATASET",
+   "community": null,
+   "description": "A synthetic dataset for evaluation",
+   "chunks": [
+    55
+   ]
+  },
+  {
+   "id": "k-means",
+   "type": "METHOD",
+   "community": 0,
+   "description": "A clustering algorithm used for frame reduction",
+   "chunks": [
+    55
+   ]
+  },
+  {
+   "id": "Clustering (Ours)",
+   "type": "METHOD",
+   "community": 19,
+   "description": "The clustering-based frame reduction method proposed in the paper",
+   "chunks": [
+    55
+   ]
+  },
+  {
+   "id": "R@1",
+   "type": "METRIC",
+   "community": null,
+   "description": "A metric for evaluating video retrieval performance",
+   "chunks": [
+    55
+   ]
+  },
+  {
+   "id": "Uniform",
+   "type": "METHOD",
+   "community": null,
+   "description": "A uniform frame selection method",
+   "chunks": [
+    55
+   ]
+  },
+  {
+   "id": "Clustering-based reduction",
+   "type": "CONCEPT",
+   "community": 19,
+   "description": "Using clustering for frame reduction",
+   "chunks": [
+    55
+   ]
+  },
+  {
+   "id": "external textual knowledge",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "external textual knowledge",
+   "chunks": [
+    55
+   ]
+  },
+  {
+   "id": "procedural queries",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "procedural queries",
+   "chunks": [
+    55
+   ]
+  },
+  {
+   "id": "Adaptive Frame Selection",
+   "type": "RESULT",
+   "community": 18,
+   "description": "compares the performance of different frame selection methods on the generation task",
+   "chunks": [
+    56,
+    57,
+    58
+   ]
+  },
+  {
+   "id": "Make a banana split",
+   "type": "TASK",
+   "community": null,
+   "description": "example of a procedural query",
+   "chunks": [
+    56
+   ]
+  },
+  {
+   "id": "Clean a Nespresso machine",
+   "type": "TASK",
+   "community": null,
+   "description": "example of a procedural query",
+   "chunks": [
+    56
+   ]
+  },
+  {
+   "id": "Cook Italian sausage",
+   "type": "TASK",
+   "community": null,
+   "description": "example of a procedural query",
+   "chunks": [
+    56
+   ]
+  },
+  {
+   "id": "Clean artificial flowers",
+   "type": "TASK",
+   "community": null,
+   "description": "example of a procedural query",
+   "chunks": [
+    56
+   ]
+  },
+  {
+   "id": "Acorn squash",
+   "type": "TASK",
+   "community": 2,
+   "description": "example of a procedural query An object used in the acorn squash cutting process",
+   "chunks": [
+    56,
+    58
+   ]
+  },
+  {
+   "id": "Question Explain how to cut acorn squash",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "Question Explain how to cut acorn squash",
+   "chunks": [
+    57
+   ]
+  },
+  {
+   "id": "coconut candy",
+   "type": "TASK",
+   "community": null,
+   "description": "A recipe for making coconut candy",
+   "chunks": [
+    58
+   ]
+  },
+  {
+   "id": "Task",
+   "type": "CONCEPT",
+   "community": 0,
+   "description": "Task",
+   "chunks": [
+    58
+   ]
+  },
+  {
+   "id": "rose",
+   "type": "PERSON",
+   "community": 11,
+   "description": "rose",
+   "chunks": [
+    61,
+    62
+   ]
+  },
+  {
+   "id": "Vally Wiselthier",
+   "type": "PERSON",
+   "community": 11,
+   "description": "Vally Wiselthier",
+   "chunks": [
+    61
+   ]
+  },
+  {
+   "id": "clay",
+   "type": "CONCEPT",
+   "community": 5,
+   "description": "material used to make pottery",
+   "chunks": [
+    62
+   ]
+  },
+  {
+   "id": "petals",
+   "type": "CONCEPT",
+   "community": 5,
+   "description": "parts added to the clay rose",
+   "chunks": [
+    62
+   ]
+  },
+  {
+   "id": "sponge",
+   "type": "CONCEPT",
+   "community": 5,
+   "description": "tool used to smooth clay",
+   "chunks": [
+    62
+   ]
+  },
+  {
+   "id": "tool",
+   "type": "CONCEPT",
+   "community": 5,
+   "description": "any object used to add details to the rose",
+   "chunks": [
+    62
+   ]
+  },
+  {
+   "id": "glaze",
+   "type": "CONCEPT",
+   "community": 11,
+   "description": "material applied to pottery for finishing",
+   "chunks": [
+    62
+   ]
+  },
+  {
+   "id": "kiln",
+   "type": "ORGANIZATION",
+   "community": 11,
+   "description": "device used to fire clay",
+   "chunks": [
+    62
+   ]
+  },
+  {
+   "id": "glitter",
+   "type": "CONCEPT",
+   "community": null,
+   "description": "material used for decoration",
+   "chunks": [
+    62
+   ]
+  },
+  {
+   "id": "manufacturer",
+   "type": "ORGANIZATION",
+   "community": null,
+   "description": "entity providing instructions for firing clay",
+   "chunks": [
+    62
+   ]
+  },
+  {
+   "id": "glue",
+   "type": "CONCEPT",
+   "community": 5,
+   "description": "glue",
+   "chunks": [
+    62
+   ]
+  },
+  {
+   "id": "Making Clay Rose",
+   "type": "TASK",
+   "community": 4,
+   "description": "Explain how to make a clay rose.",
+   "chunks": [
+    63
+   ]
+  },
+  {
+   "id": "Rolling out clay",
+   "type": "METHOD",
+   "community": 4,
+   "description": "Start by rolling out a piece of clay into a flat sheet.",
+   "chunks": [
+    63
+   ]
+  },
+  {
+   "id": "Flattening clay",
+   "type": "METHOD",
+   "community": 4,
+   "description": "Use a rolling pin to flatten the clay further.",
+   "chunks": [
+    63
+   ]
+  },
+  {
+   "id": "Cutting petal shapes",
+   "type": "METHOD",
+   "community": 4,
+   "description": "Use a knife or sculpting tool to cut the clay into petal shapes.",
+   "chunks": [
+    63
+   ]
+  },
+  {
+   "id": "Rolling petals into spiral",
+   "type": "METHOD",
+   "community": 4,
+   "description": "Roll the petals into a spiral shape to form the rose.",
+   "chunks": [
+    63
+   ]
+  },
+  {
+   "id": "Creating indentations",
+   "type": "METHOD",
+   "community": 4,
+   "description": "Use a small tool to create indentations in the petals for texture.",
+   "chunks": [
+    63
+   ]
+  },
+  {
+   "id": "Assembling petals",
+   "type": "METHOD",
+   "community": 4,
+   "description": "Assemble the petals around a central stem, shaping them to resemble a rose.",
+   "chunks": [
+    63
+   ]
+  },
+  {
+   "id": "Adding leaves",
+   "type": "METHOD",
+   "community": 4,
+   "description": "Add leaves and other details as desired.",
+   "chunks": [
+    63
+   ]
+  },
+  {
+   "id": "Using mold",
+   "type": "METHOD",
+   "community": 4,
+   "description": "Use a mold to imprint patterns onto the petals, adding depth and realism to the rose.",
+   "chunks": [
+    63
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "source": "VideoRAG",
+   "target": "RAG",
+   "weight": 7,
+   "relations": [
+    "IS-A: VideoRAG is a variant of Retrieval-Augmented Generation",
+    "emerges_as_mitigator: VideoRAG is presented as an essential solution to mitigate factual inaccuracies in RAG systems",
+    "enables: proposed framework enables a more comprehensive utilization of video content for holistic retrieval and incorporation",
+    "evaluates models on: VideoRAG evaluates models on the automatically collected dataset for RAG over videos",
+    "is-a: VideoRAG is a method that incorporates elements of RAG for answer generation.",
+    "extends: proposed framework aims to expand the current landscape of RAG",
+    "apply: VideoRAG applies RAG to retrieve query-relevant videos"
+   ],
+   "chunks": [
+    0,
+    4,
+    7,
+    9,
+    28,
+    43,
+    49
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "videos",
+   "weight": 3,
+   "relations": [
+    "USES: VideoRAG utilizes both visual and textual information from videos",
+    "argues_for_underutilization: The paper argues that videos, a rich multimodal medium, are underutilized for RAG augmentation",
+    "retrieves: VideoRAG retrieves relevant videos from a large video corpus"
+   ],
+   "chunks": [
+    0,
+    4,
+    8
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "queries",
+   "weight": 2,
+   "relations": [
+    "RETRIEVES: VideoRAG dynamically retrieves videos based on their relevance with queries",
+    "integrates: VideoRAG integrates retrieved videos with queries for response generation"
+   ],
+   "chunks": [
+    0,
+    1
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "LVLMs",
+   "weight": 7,
+   "relations": [
+    "uses: VideoRAG relies on LVLMs for its operations",
+    "uses: VideoRAG utilizes LVLMs to process video content",
+    "incorporates: LVLMs are integrated into the VideoRAG model to handle video content",
+    "uses: VideoRAG uses LVLM to generate responses by processing multimodal information",
+    "uses: VideoRAG utilizes large vision-language models for processing video content",
+    "uses: VideoRAG is built on LVLMs",
+    "use: VideoRAG utilizes LVLMs to generate question-answer pairs"
+   ],
+   "chunks": [
+    1,
+    8,
+    12,
+    16,
+    41,
+    42,
+    49
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "k-means++ clustering",
+   "weight": 18,
+   "relations": [
+    "employs: VideoRAG employs k-means++ clustering for video frame selection",
+    "uses: VideoRAG uses k-means++ clustering for some of its operations.",
+    "employs: VideoRAG employs k-means++ clustering for automatic dataset collection",
+    "applies: VideoRAG applies k-means++ clustering to select informative frames",
+    "uses: VideoRAG uses k-means++ clustering for initialization.",
+    "applies: VideoRAG applies k-means++ clustering for certain tasks.",
+    "applies: VideoRAG applies k-means++ clustering for frame selection",
+    "applied to: k-means++ clustering is applied in the analysis of varying model sizes",
+    "applies: VideoRAG applies k-means++ clustering for some of its operations",
+    "uses algorithm: VideoRAG employs k-means++ clustering for certain tasks",
+    "applies: VideoRAG applies k-means++ clustering for some tasks but not specifically mentioned in the context of VideoRAG",
+    "includes: VideoRAG incorporates k-means++ clustering for adaptive frame selection",
+    "improves: k-means++ clustering helps improve retrieval and generation performance",
+    "involves: the retrieval process involves k-means++ clustering algorithm",
+    "applied to: k-means++ clustering is applied to obtain candidate frames for generation.",
+    "applied for: k-means++ clustering is applied for auxiliary analysis to compare the performance of VideoRAG with different videos.",
+    "applies: VideoRAG applies k-means++ clustering for adaptive frame selection",
+    "use: VideoRAG uses k-means++ clustering to generate synthetic question-answer pairs"
+   ],
+   "chunks": [
+    1,
+    2,
+    10,
+    11,
+    26,
+    28,
+    31,
+    32,
+    33,
+    35,
+    41,
+    44,
+    46,
+    52,
+    53,
+    59,
+    64
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "textual information",
+   "weight": 2,
+   "relations": [
+    "extracts: VideoRAG extracts textual information from videos when subtitles are not available",
+    "integrates: VideoRAG integrates both visual and textual elements into the answer-generation process"
+   ],
+   "chunks": [
+    1,
+    8
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "InternVideo2",
+   "weight": 14,
+   "relations": [
+    "is-a-type-of: VideoRAG is a large foundation model similar to InternVideo2 which is also a model for image-text retrieval.",
+    "uses: VideoRAG uses InternVideo2 as a model for video retrieval",
+    "employs: VideoRAG employs InternVideo2 as a dataset",
+    "uses: InternVideo2 is utilized within the VideoRAG model to process video content",
+    "employs: VIDEORAG employs InternVideo2 for retrieval",
+    "used_for: InternVideo2 is used for retrieval in VIDEORAG",
+    "compares: VideoRAG compares its performance with InternVideo2.",
+    "uses: VideoRAG utilizes InternVideo2 for feature extraction.",
+    "uses: VideoRAG utilizes InternVideo2 as a model",
+    "USES: InternVideo2 is used for retrieval in VideoRAG",
+    "HAS ENCODERS: InternVideo2 has video and text encoders used by VideoRAG for feature extraction",
+    "uses: VideoRAG uses InternVideo2 as a component for video retrieval and generation.",
+    "uses: VideoRAG uses InternVideo2 as a component for video retrieval and generation.",
+    "uses: VideoRAG uses InternVideo2 as a component for its method"
+   ],
+   "chunks": [
+    2,
+    10,
+    11,
+    12,
+    24,
+    26,
+    28,
+    32,
+    47,
+    57,
+    58,
+    59
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "WikiHowQA",
+   "weight": 12,
+   "relations": [
+    "is-evaluated-by: VideoRAG is evaluated using the WikiHowQA dataset.",
+    "used for: VideoRAG conducts experiments using overlapping queries from the WikiHowQA dataset",
+    "evaluates: VideoRAG evaluates its performance on the WikiHowQA dataset",
+    "evaluates: VideoRAG evaluates its performance on the WikiHowQA dataset for video-based question answering",
+    "employs: VideoRAG employs WikiHowQA as a dataset",
+    "EVALUATE: VideoRAG is evaluated using WikiHowQA dataset",
+    "evaluates: VideoRAG evaluates its performance using WikiHowQA dataset.",
+    "employs dataset: VideoRAG uses WikiHowQA dataset for training and evaluation",
+    "evaluates: VideoRAG evaluates its performance using WikiHowQA dataset",
+    "evaluates on: VideoRAG evaluates its performance on WikiHowQA dataset",
+    "is used in: WikiHowQA is used in the context of VideoRAG for question answering tasks",
+    "USES: VideoRAG uses WikiHowQA as a dataset for training and evaluation"
+   ],
+   "chunks": [
+    2,
+    9,
+    10,
+    11,
+    21,
+    28,
+    35,
+    41,
+    44,
+    59,
+    65
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "ROUGE-L",
+   "weight": 8,
+   "relations": [
+    "is-used-to-evaluate: ROUGE-L is used to evaluate the quality of the generated summaries by VideoRAG.",
+    "evaluates: VideoRAG evaluates its performance using ROUGE-L",
+    "evaluates: ROUGE-L is used to evaluate the effectiveness of VideoRAG",
+    "evaluates: VideoRAG evaluates its performance using ROUGE-L metric",
+    "evaluates: VideoRAG evaluates retrieval and generation performance using ROUGE-L",
+    "evaluates: VideoRAG is evaluated using ROUGE-L as a metric.",
+    "evaluates: VideoRAG is evaluated using ROUGE-L score.",
+    "evaluates: VideoRAG evaluates its results using ROUGE-L metric"
+   ],
+   "chunks": [
+    2,
+    31,
+    32,
+    41,
+    44,
+    57,
+    58,
+    59
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "consider",
+   "weight": 1,
+   "relations": [
+    "use: VideoRAG considers video content to handle user queries"
+   ],
+   "chunks": [
+    5
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "other studies",
+   "weight": 1,
+   "relations": [
+    "use: VideoRAG uses videos to answer queries directly, while other studies convert videos into text."
+   ],
+   "chunks": [
+    6
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "more general-use cases",
+   "weight": 1,
+   "relations": [
+    "applies to: VideoRAG applies to more general-use cases where users expect dynamic video identification."
+   ],
+   "chunks": [
+    6
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "off-the-shelf text-based RAG pipelines",
+   "weight": 1,
+   "relations": [
+    "compared with: VideoRAG is compared with text-based RAG pipelines that convert videos into text."
+   ],
+   "chunks": [
+    6
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "multimodal richness",
+   "weight": 1,
+   "relations": [
+    "sacrifices: VideoRAG sacrifices the multimodal richness of video data by converting it into text."
+   ],
+   "chunks": [
+    6
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "visual context",
+   "weight": 1,
+   "relations": [
+    "captures: VideoRAG captures temporal dynamics in the visual context of videos."
+   ],
+   "chunks": [
+    6
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "video corpus",
+   "weight": 1,
+   "relations": [
+    "retrieves: framework retrieves relevant videos from a large video corpus in response to queries"
+   ],
+   "chunks": [
+    7
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "frame selection model",
+   "weight": 1,
+   "relations": [
+    "is trained to: the frame selection model is trained to extract the most informative subset of frames to maximize retrieval and generation performance"
+   ],
+   "chunks": [
+    9
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "Automatic Speech Recognition",
+   "weight": 2,
+   "relations": [
+    "utilizes: VideoRAG utilizes Automatic Speech Recognition techniques to generate textual transcripts from videos",
+    "uses: VideoRAG uses Automatic speech recognition to generate textual transcripts"
+   ],
+   "chunks": [
+    9,
+    44
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "HowTo100M",
+   "weight": 4,
+   "relations": [
+    "used for: VideoRAG conducts experiments using query-video pairs from the HowTo100M dataset",
+    "collects data from: VideoRAG collects data from the HowTo100M dataset for evaluation",
+    "USE_IN: VideoRAG uses HowTo100M dataset for its evaluation",
+    "uses: VIDEORAG uses groundtruth video labels from HowTo100M"
+   ],
+   "chunks": [
+    9,
+    10,
+    21,
+    24
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "Retriever",
+   "weight": 2,
+   "relations": [
+    "uses: VideoRAG uses Retriever to retrieve documents from an external corpus",
+    "uses: VideoRAG uses retrievers to select relevant documents for the retrieval step"
+   ],
+   "chunks": [
+    11,
+    40
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "Model(q, K)",
+   "weight": 1,
+   "relations": [
+    "employs: the model is employed by the VideoRAG system to generate answers"
+   ],
+   "chunks": [
+    12
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "frames",
+   "weight": 1,
+   "relations": [
+    "concatenates: VideoRAG concatenates frames of each retrieved video with its associated textual data"
+   ],
+   "chunks": [
+    16
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "Query",
+   "weight": 2,
+   "relations": [
+    "appends: VideoRAG appends user queries to the concatenated multimodal pairs",
+    "input to: Query is input to the model for both retrieval and generation tasks."
+   ],
+   "chunks": [
+    16,
+    52
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "retrieved videos",
+   "weight": 1,
+   "relations": [
+    "incorporates: VideoRAG incorporates retrieved videos into the answer generation process"
+   ],
+   "chunks": [
+    16
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "conventional loss functions",
+   "weight": 1,
+   "relations": [
+    "use: VideoRAG uses conventional loss functions like cross-entropy for optimization."
+   ],
+   "chunks": [
+    20
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "WikiHow",
+   "weight": 2,
+   "relations": [
+    "SOURCE_OF: WikiHow provides the source of WikiHowQA dataset",
+    "evaluates: VideoRAG evaluates its performance on queries from WikiHow"
+   ],
+   "chunks": [
+    21,
+    33
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "YouTube",
+   "weight": 1,
+   "relations": [
+    "SOURCE_OF: YouTube provides the source of HowTo100M dataset"
+   ],
+   "chunks": [
+    21
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "NAÏVE",
+   "weight": 2,
+   "relations": [
+    "compared against: VideoRAG was compared with the naive approach that generates answers directly from queries.",
+    "compares performance: VideoRAG consistently outperforms NAÏVE baseline"
+   ],
+   "chunks": [
+    22,
+    35
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "TEXTRAG (BM25)",
+   "weight": 1,
+   "relations": [
+    "compared against: VideoRAG was compared with the text-based RAG model using BM25 for document retrieval."
+   ],
+   "chunks": [
+    22
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "TEXTRAG (DPR)",
+   "weight": 1,
+   "relations": [
+    "compared against: VideoRAG was compared with the text-based RAG model using DPR for document retrieval."
+   ],
+   "chunks": [
+    22
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "TextImageRAG",
+   "weight": 5,
+   "relations": [
+    "compared against: VideoRAG was compared with the multimodal RAG model following conventional approaches.",
+    "PERFORMS-WELL-ON: VideoRAG performs well on the TextImagerag dataset.",
+    "variant of: TextImageRAG is a variant of TextRAG",
+    "combines: VideoRAG combines textual and image features for retrieval",
+    "combines: VideoRAG combines textual and image features for retrieval"
+   ],
+   "chunks": [
+    22,
+    27,
+    30,
+    31
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "TEXTVIDEORAG",
+   "weight": 3,
+   "relations": [
+    "compared against: VideoRAG was compared with the video-based RAG model following previous methods.",
+    "combines: VideoRAG combines textual and video features for retrieval",
+    "combines: VideoRAG combines textual and video features for retrieval"
+   ],
+   "chunks": [
+    22,
+    31
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "VIDEORAG-V",
+   "weight": 2,
+   "relations": [
+    "has_variant: VideoRAG has two variants: VIDEORAG-V and VIDEOR2https://www.wikihow.com/Main-Page AG-VT",
+    "variant of: VideoRAG-V is a variant of VideoRAG"
+   ],
+   "chunks": [
+    23,
+    30
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "VIDEOR2https://www.wikihow.com/Main-Page AG-VT",
+   "weight": 1,
+   "relations": [
+    "has_variant: VideoRAG has two variants: VIDEORAG-V and VIDEOR2https://www.wikihow.com/Main-Page AG-VT"
+   ],
+   "chunks": [
+    23
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "Oracle VIDEORAG",
+   "weight": 1,
+   "relations": [
+    "includes: Oracle VIDEORAG is included in the performance estimation of VideoRAG"
+   ],
+   "chunks": [
+    23
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "RAG models",
+   "weight": 1,
+   "relations": [
+    "achieves better performance than: VIDEORAG significantly surpasses conventional textual, text-image, or text-video RAG baselines."
+   ],
+   "chunks": [
+    25
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "NAÏVE baseline",
+   "weight": 1,
+   "relations": [
+    "outperforms: all RAG models clearly outperform the NAÏVE baseline, reaffirming the critical role of external knowledge in enhancing the factual accuracy of generated responses."
+   ],
+   "chunks": [
+    25
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "Oracle setting",
+   "weight": 3,
+   "relations": [
+    "compares: Compares the performance of VideoRAG with the Oracle setting",
+    "compares: Compares the performance of VIDEORAG with the Oracle setting",
+    "achieves highest performance: Oracle setting represents perfect video retrieval"
+   ],
+   "chunks": [
+    29,
+    54
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "Video retrieval",
+   "weight": 1,
+   "relations": [
+    "performs: Performs video retrieval using VIDEORAG"
+   ],
+   "chunks": [
+    29
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "VideoRAG-VT",
+   "weight": 4,
+   "relations": [
+    "variant of: VideoRAG-VT is a variant of VideoRAG",
+    "variant of: VideoRAG-VT is a variant of VideoRAG",
+    "improves: VideoRAG-VT is an improved version of VideoRAG",
+    "is an instantiation of: VIDEORAG-VT is a variant of VideoRAG with additional features"
+   ],
+   "chunks": [
+    30,
+    31,
+    33
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "TextRAG(BM25)",
+   "weight": 1,
+   "relations": [
+    "variant of: TextRAG(BM25) is a variant of TextRAG"
+   ],
+   "chunks": [
+    30
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "TEXTRAG",
+   "weight": 2,
+   "relations": [
+    "uses: VideoRAG uses TextRAG as a baseline model",
+    "compares: VideoRAG compares its performance with TextRAG as a baseline model"
+   ],
+   "chunks": [
+    31
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "BERTScore",
+   "weight": 1,
+   "relations": [
+    "evaluates: VideoRAG evaluates its performance using BERTScore"
+   ],
+   "chunks": [
+    31
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "InternVL 2.5",
+   "weight": 4,
+   "relations": [
+    "can be instantiated with: VideoRAG can be instantiated with varying sizes of LVLMs, including InternVL2.5",
+    "uses: VideoRAG utilizes InternVL2.5 for its operations",
+    "uses: VideoRAG uses InternVL 2.5 for video-augmented answer generation",
+    "uses: VideoRAG uses InternVL 2.5 for synthetic data generation"
+   ],
+   "chunks": [
+    32,
+    33,
+    48
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "frame selection",
+   "weight": 1,
+   "relations": [
+    "analyzes: Frame Selection is analyzed in the context of VideoRAG's performance"
+   ],
+   "chunks": [
+    32
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "Human Evaluation",
+   "weight": 1,
+   "relations": [
+    "achieves highest performance: VideoRAG model performs best in human evaluation"
+   ],
+   "chunks": [
+    38
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "Multimodal RAG",
+   "weight": 1,
+   "relations": [
+    "expands: VideoRAG expands to include multimodal information beyond text"
+   ],
+   "chunks": [
+    40
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "zero-shot settings",
+   "weight": 1,
+   "relations": [
+    "applies to: proposed framework can operate in scenarios with no prior training data available"
+   ],
+   "chunks": [
+    43
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "future work",
+   "weight": 2,
+   "relations": [
+    "focuses on: proposed frame selection strategy greatly improves the efficiency and effectiveness of video processing",
+    "aims to improve: further improve the efficacy of our initial foray (VideoRAG) by maximizing its effectiveness and efficiency further"
+   ],
+   "chunks": [
+    45
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "LLaVA-Video",
+   "weight": 2,
+   "relations": [
+    "uses: VideoRAG uses LLaVA-Video for video-augmented answer generation",
+    "uses: VideoRAG uses LLaVA-Video for synthetic data generation"
+   ],
+   "chunks": [
+    48
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "Qwen-2.5-VL",
+   "weight": 2,
+   "relations": [
+    "uses: VideoRAG uses Qwen-2.5-VL for video-augmented answer generation",
+    "uses: VideoRAG uses Qwen-2.5-VL for synthetic data generation"
+   ],
+   "chunks": [
+    48
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "prompt",
+   "weight": 1,
+   "relations": [
+    "provide: VideoRAG provides a structured prompt for LLMs to generate questions"
+   ],
+   "chunks": [
+    49
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "question-generation",
+   "weight": 1,
+   "relations": [
+    "achieve: VideoRAG aims to generate questions that are not overly specific to a single video"
+   ],
+   "chunks": [
+    49
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "GPT-4o",
+   "weight": 1,
+   "relations": [
+    "use: VideoRAG uses GPT-4o as the Large Vision-Language Model (LVLM) for synthetic data creation"
+   ],
+   "chunks": [
+    50
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "CLIP",
+   "weight": 1,
+   "relations": [
+    "used by: VideoRAG uses CLIP to extract features from frames for retrieval"
+   ],
+   "chunks": [
+    50
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "methodology",
+   "weight": 1,
+   "relations": [
+    "describes: describes the overall method"
+   ],
+   "chunks": [
+    51
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "cross-entropy loss",
+   "weight": 1,
+   "relations": [
+    "uses: VideoRAG optimizes its network via cross-entropy loss."
+   ],
+   "chunks": [
+    52
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "Retrieved",
+   "weight": 3,
+   "relations": [
+    "compares with: VideoRAG compares its generated responses with manually annotated ground truth videos.",
+    "selects videos based on: Retrieved method selects videos based on their relevance to queries for the VideoRAG model.",
+    "augments with: VideoRAG model is augmented with retrieved videos."
+   ],
+   "chunks": [
+    52,
+    53
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "Oracle",
+   "weight": 2,
+   "relations": [
+    "compares with: VideoRAG compares its generated responses with manually annotated ground truth videos.",
+    "uses ground truth videos: Oracle method uses ground truth videos for the VideoRAG model."
+   ],
+   "chunks": [
+    52,
+    53
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "Random",
+   "weight": 2,
+   "relations": [
+    "compares with: VideoRAG compares its generated responses with randomly sampled videos.",
+    "augments with: VideoRAG model is augmented with randomly selected videos."
+   ],
+   "chunks": [
+    52,
+    53
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "True",
+   "weight": 1,
+   "relations": [
+    "assigned to: Top 3 combinations with highest similarities are labeled as True."
+   ],
+   "chunks": [
+    52
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "False",
+   "weight": 1,
+   "relations": [
+    "assigned to: Bottom 3 combinations with lowest similarities are labeled as False."
+   ],
+   "chunks": [
+    52
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "64C32",
+   "weight": 1,
+   "relations": [
+    "results in: The space of 64C32 possible combinations is obtained."
+   ],
+   "chunks": [
+    52
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "40",
+   "weight": 1,
+   "relations": [
+    "sampled from: 40 subsets are randomly sampled from the space of 64C32 combinations."
+   ],
+   "chunks": [
+    52
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "64",
+   "weight": 1,
+   "relations": [
+    "used for: 64 candidate frames are used for generation."
+   ],
+   "chunks": [
+    52
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "32",
+   "weight": 1,
+   "relations": [
+    "selected for: 32 frames are selected for each combination in generation."
+   ],
+   "chunks": [
+    52
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "Representation",
+   "weight": 1,
+   "relations": [
+    "output of: Representations of sampled frames and the query are output by the scoring function f."
+   ],
+   "chunks": [
+    52
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "Table 7",
+   "weight": 1,
+   "relations": [
+    "contains results of: Table 7 contains results of different video generation methods."
+   ],
+   "chunks": [
+    52
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "3-layer MLPs",
+   "weight": 1,
+   "relations": [
+    "applied to: 3-layer MLPs are applied to the VideoRAG model for processing video frames."
+   ],
+   "chunks": [
+    53
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "query-relevant videos",
+   "weight": 1,
+   "relations": [
+    "improves quality of answers: incorporating query-relevant videos leads to better answers"
+   ],
+   "chunks": [
+    54
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "k-means",
+   "weight": 1,
+   "relations": [
+    "compares: VideoRAG compares favorably with k-means in terms of performance."
+   ],
+   "chunks": [
+    55
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "external textual knowledge",
+   "weight": 1,
+   "relations": [
+    "combines: VideoRAG combines external textual knowledge with procedural queries."
+   ],
+   "chunks": [
+    55
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "procedural queries",
+   "weight": 1,
+   "relations": [
+    "applies to: VideoRAG applies to procedural queries like 'Explain how to make a clay rose'."
+   ],
+   "chunks": [
+    55
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "Table 13",
+   "weight": 1,
+   "relations": [
+    "contains: Table 13 contains synthetic question-answer pairs generated by VideoRAG for evaluation"
+   ],
+   "chunks": [
+    64
+   ]
+  },
+  {
+   "source": "VideoRAG",
+   "target": "G-Eval",
+   "weight": 1,
+   "relations": [
+    "USES: G-Eval is used as a guideline for human evaluation by VideoRAG"
+   ],
+   "chunks": [
+    65
+   ]
+  },
+  {
+   "source": "RAG",
+   "target": "text",
+   "weight": 1,
+   "relations": [
+    "typically_includes: Existing RAG approaches primarily focus on retrieving and incorporating textual content"
+   ],
+   "chunks": [
+    4
+   ]
+  },
+  {
+   "source": "RAG",
+   "target": "image",
+   "weight": 1,
+   "relations": [
+    "recently_explores: Some recent RAG attempts begin to incorporate images as additional source of external knowledge"
+   ],
+   "chunks": [
+    4
+   ]
+  },
+  {
+   "source": "videos",
+   "target": "temporal dynamics",
+   "weight": 1,
+   "relations": [
+    "include: videos contain temporal dynamics"
+   ],
+   "chunks": [
+    5
+   ]
+  },
+  {
+   "source": "videos",
+   "target": "spatial details",
+   "weight": 1,
+   "relations": [
+    "include: videos contain spatial details"
+   ],
+   "chunks": [
+    5
+   ]
+  },
+  {
+   "source": "videos",
+   "target": "multimodal cues",
+   "weight": 1,
+   "relations": [
+    "include: videos contain multimodal cues"
+   ],
+   "chunks": [
+    5
+   ]
+  },
+  {
+   "source": "videos",
+   "target": "static modalities",
+   "weight": 1,
+   "relations": [
+    "fail to convey: static modalities like text and images fail to convey complex processes"
+   ],
+   "chunks": [
+    5
+   ]
+  },
+  {
+   "source": "videos",
+   "target": "LVLMs",
+   "weight": 1,
+   "relations": [
+    "processes: LVLMs process video content"
+   ],
+   "chunks": [
+    42
+   ]
+  },
+  {
+   "source": "k-means++ clustering",
+   "target": "identify",
+   "weight": 1,
+   "relations": [
+    "focus on: k-means++ clustering focuses on identifying query-relevant frames within a specified video"
+   ],
+   "chunks": [
+    5
+   ]
+  },
+  {
+   "source": "k-means++ clustering",
+   "target": "frame selection space",
+   "weight": 1,
+   "relations": [
+    "reduces: k-means++ clustering reduces the frame selection space"
+   ],
+   "chunks": [
+    18
+   ]
+  },
+  {
+   "source": "k-means++ clustering",
+   "target": "frame selection",
+   "weight": 2,
+   "relations": [
+    "used for: k-means++ clustering is used to select representative samples for frame selection",
+    "applied to: k-means++ clustering is applied to the frame selection process to reduce the search space"
+   ],
+   "chunks": [
+    19
+   ]
+  },
+  {
+   "source": "k-means++ clustering",
+   "target": "8 candidate frames",
+   "weight": 1,
+   "relations": [
+    "applied to: applied to reduce frame sampling space"
+   ],
+   "chunks": [
+    51
+   ]
+  },
+  {
+   "source": "k-means++ clustering",
+   "target": "frame sampling space",
+   "weight": 1,
+   "relations": [
+    "reduces: reduces the frame sampling space"
+   ],
+   "chunks": [
+    51
+   ]
+  },
+  {
+   "source": "k-means++ clustering",
+   "target": "frame reduction",
+   "weight": 1,
+   "relations": [
+    "used for: k-means++ clustering is applied to reduce frames"
+   ],
+   "chunks": [
+    54
+   ]
+  },
+  {
+   "source": "k-means++ clustering",
+   "target": "random sampling",
+   "weight": 2,
+   "relations": [
+    "compared to: k-means++ clustering is compared with random sampling for frame reduction",
+    "outperforms: k-means++ clustering performs better than random sampling"
+   ],
+   "chunks": [
+    54
+   ]
+  },
+  {
+   "source": "k-means++ clustering",
+   "target": "uniform sampling",
+   "weight": 2,
+   "relations": [
+    "compared to: k-means++ clustering is compared with uniform sampling for frame reduction",
+    "outperforms: k-means++ clustering performs better than uniform sampling"
+   ],
+   "chunks": [
+    54
+   ]
+  },
+  {
+   "source": "k-means++ clustering",
+   "target": "Adaptive Frame Selection",
+   "weight": 2,
+   "relations": [
+    "applied to: k-means++ clustering is applied to adaptive frame selection for better sampling.",
+    "used_for: k-means++ clustering is used for frame selection in adaptive frame selection."
+   ],
+   "chunks": [
+    57,
+    58
+   ]
+  },
+  {
+   "source": "WikiHowQA",
+   "target": "VIDEORAG-V",
+   "weight": 1,
+   "relations": [
+    "USES: VIDEORAG-V uses WikiHowQA as a dataset."
+   ],
+   "chunks": [
+    36
+   ]
+  },
+  {
+   "source": "WikiHowQA",
+   "target": "HowTo100M",
+   "weight": 1,
+   "relations": [
+    "associated with: construct the dataset by associating the WikiHowQA dataset with the HowTo100M dataset"
+   ],
+   "chunks": [
+    45
+   ]
+  },
+  {
+   "source": "WikiHowQA",
+   "target": "LVLMs",
+   "weight": 1,
+   "relations": [
+    "trained-on: LVLMs are trained on the WikiHowQA dataset"
+   ],
+   "chunks": [
+    46
+   ]
+  },
+  {
+   "source": "WikiHowQA",
+   "target": "Question Explain how to cut acorn squash",
+   "weight": 1,
+   "relations": [
+    "contains: WikiHowQA contains questions like 'Explain how to cut acorn squash'."
+   ],
+   "chunks": [
+    57
+   ]
+  },
+  {
+   "source": "WikiHowQA",
+   "target": "Task",
+   "weight": 1,
+   "relations": [
+    "contains: WikiHowQA contains questions and answers for various tasks."
+   ],
+   "chunks": [
+    58
+   ]
+  },
+  {
+   "source": "InternVideo2",
+   "target": "InternVL 2.5",
+   "weight": 1,
+   "relations": [
+    "employs: InternVL 2.5 employs InternVideo2 for retrieval"
+   ],
+   "chunks": [
+    24
+   ]
+  },
+  {
+   "source": "InternVideo2",
+   "target": "frames",
+   "weight": 1,
+   "relations": [
+    "uses: we use 4 frames per video for retrieval, while we use 32 frames (or all frames if the video is shorter than 32 seconds, sampled at 1 fps) for generation."
+   ],
+   "chunks": [
+    25
+   ]
+  },
+  {
+   "source": "InternVideo2",
+   "target": "VIDEORAG-V",
+   "weight": 1,
+   "relations": [
+    "GENERATES: VIDEORAG-V generates InternVideo2."
+   ],
+   "chunks": [
+    36
+   ]
+  },
+  {
+   "source": "LVLMs",
+   "target": "frames",
+   "weight": 1,
+   "relations": [
+    "processes: LVLMs process individual segments of video content"
+   ],
+   "chunks": [
+    8
+   ]
+  },
+  {
+   "source": "LVLMs",
+   "target": "VisionEncoder",
+   "weight": 1,
+   "relations": [
+    "employs: LVLM employs VisionEncoder to process video frames"
+   ],
+   "chunks": [
+    13
+   ]
+  },
+  {
+   "source": "LVLMs",
+   "target": "TextEncoder",
+   "weight": 1,
+   "relations": [
+    "employs: LVLM employs TextEncoder to process textual information"
+   ],
+   "chunks": [
+    13
+   ]
+  },
+  {
+   "source": "LVLMs",
+   "target": "fvideo",
+   "weight": 1,
+   "relations": [
+    "obtains: LVLM obtains fvideo through the joint processing of visual and textual features"
+   ],
+   "chunks": [
+    13
+   ]
+  },
+  {
+   "source": "LVLMs",
+   "target": "Ftext",
+   "weight": 1,
+   "relations": [
+    "use: LVLM uses Ftext to generate the video representation."
+   ],
+   "chunks": [
+    14
+   ]
+  },
+  {
+   "source": "LVLMs",
+   "target": "image",
+   "weight": 1,
+   "relations": [
+    "processes: LVLMs process diverse modalities including images"
+   ],
+   "chunks": [
+    42
+   ]
+  },
+  {
+   "source": "LVLMs",
+   "target": "code",
+   "weight": 1,
+   "relations": [
+    "processes: LVLMs process diverse modalities including code"
+   ],
+   "chunks": [
+    42
+   ]
+  },
+  {
+   "source": "LVLMs",
+   "target": "object detection",
+   "weight": 1,
+   "relations": [
+    "solve: LVLMs excel in object detection"
+   ],
+   "chunks": [
+    42
+   ]
+  },
+  {
+   "source": "LVLMs",
+   "target": "action detection",
+   "weight": 1,
+   "relations": [
+    "solve: LVLMs excel in action detection"
+   ],
+   "chunks": [
+    42
+   ]
+  },
+  {
+   "source": "LVLMs",
+   "target": "spatio-temporal dynamics",
+   "weight": 1,
+   "relations": [
+    "analyze: LVLMs analyze spatio-temporal dynamics"
+   ],
+   "chunks": [
+    42
+   ]
+  },
+  {
+   "source": "LVLMs",
+   "target": "event sequences",
+   "weight": 1,
+   "relations": [
+    "tackle: LVLMs tackle event sequence prediction"
+   ],
+   "chunks": [
+    42
+   ]
+  },
+  {
+   "source": "LVLMs",
+   "target": "causal relationships",
+   "weight": 1,
+   "relations": [
+    "infer: LVLMs infer causal relationships"
+   ],
+   "chunks": [
+    42
+   ]
+  },
+  {
+   "source": "LVLMs",
+   "target": "context-aware descriptions",
+   "weight": 1,
+   "relations": [
+    "generate: LVLMs generate context-aware descriptions"
+   ],
+   "chunks": [
+    42
+   ]
+  },
+  {
+   "source": "LVLMs",
+   "target": "intricate scenarios",
+   "weight": 1,
+   "relations": [
+    "analyze: LVLMs analyze intricate scenarios"
+   ],
+   "chunks": [
+    42
+   ]
+  },
+  {
+   "source": "LVLMs",
+   "target": "zero-shot settings",
+   "weight": 1,
+   "relations": [
+    "handle: LVLMs handle zero-shot settings"
+   ],
+   "chunks": [
+    42
+   ]
+  },
+  {
+   "source": "LVLMs",
+   "target": "bias",
+   "weight": 1,
+   "relations": [
+    "may-inherit-and-amplify: LVLMs may inherit and amplify biases present in their training data"
+   ],
+   "chunks": [
+    46
+   ]
+  },
+  {
+   "source": "large vision-language models",
+   "target": "textual and multimodal corpora",
+   "weight": 1,
+   "relations": [
+    "train on: these models are trained using textual and multimodal corpora"
+   ],
+   "chunks": [
+    3
+   ]
+  },
+  {
+   "source": "large vision-language models",
+   "target": "factually incorrect outputs",
+   "weight": 1,
+   "relations": [
+    "generate: these models are prone to generating factually incorrect outputs"
+   ],
+   "chunks": [
+    3
+   ]
+  },
+  {
+   "source": "large vision-language models",
+   "target": "parametric knowledge",
+   "weight": 1,
+   "relations": [
+    "encode: their parameters contain vast amounts of encoded knowledge"
+   ],
+   "chunks": [
+    3
+   ]
+  },
+  {
+   "source": "image",
+   "target": "Multimodal RAG",
+   "weight": 1,
+   "relations": [
+    "incorporates: Multimodal RAG incorporates images alongside text for multimodal information"
+   ],
+   "chunks": [
+    40
+   ]
+  },
+  {
+   "source": "YouTube",
+   "target": "video-sharing platform",
+   "weight": 1,
+   "relations": [
+    "be: YouTube is a video-sharing platform"
+   ],
+   "chunks": [
+    5
+   ]
+  },
+  {
+   "source": "educational tutorials",
+   "target": "useful video content",
+   "weight": 1,
+   "relations": [
+    "be: educational tutorials are useful video content for user queries"
+   ],
+   "chunks": [
+    5
+   ]
+  },
+  {
+   "source": "scientific demonstrations",
+   "target": "useful video content",
+   "weight": 1,
+   "relations": [
+    "be: scientific demonstrations are useful video content for user queries"
+   ],
+   "chunks": [
+    5
+   ]
+  },
+  {
+   "source": "personal experiences",
+   "target": "useful video content",
+   "weight": 1,
+   "relations": [
+    "be: personal experiences are useful video content for user queries"
+   ],
+   "chunks": [
+    5
+   ]
+  },
+  {
+   "source": "real-time events",
+   "target": "useful video content",
+   "weight": 1,
+   "relations": [
+    "be: real-time events are useful video content for user queries"
+   ],
+   "chunks": [
+    5
+   ]
+  },
+  {
+   "source": "Retriever",
+   "target": "Wikipedia",
+   "weight": 1,
+   "relations": [
+    "provides data for: Retriever provides data from Wikipedia for retrieval"
+   ],
+   "chunks": [
+    11
+   ]
+  },
+  {
+   "source": "Retriever",
+   "target": "q",
+   "weight": 2,
+   "relations": [
+    "processes: Retriever processes the query q to identify relevant videos.",
+    "uses: Retriever uses query q to identify relevant videos"
+   ],
+   "chunks": [
+    14,
+    15
+   ]
+  },
+  {
+   "source": "Retriever",
+   "target": "C",
+   "weight": 1,
+   "relations": [
+    "operates on: Retriever operates on the corpus C of videos"
+   ],
+   "chunks": [
+    15
+   ]
+  },
+  {
+   "source": "Wikipedia",
+   "target": "VIDEORAG-V",
+   "weight": 1,
+   "relations": [
+    "lacks: Wikipedia does not provide specific procedural guidance for making a clay rose"
+   ],
+   "chunks": [
+    56
+   ]
+  },
+  {
+   "source": "Sim(q, k)",
+   "target": "Model(q, K)",
+   "weight": 1,
+   "relations": [
+    "uses: the scoring function Sim(q, k) is used to determine the representation of knowledge elements and guide the generation process"
+   ],
+   "chunks": [
+    12
+   ]
+  },
+  {
+   "source": "q",
+   "target": "fquery",
+   "weight": 1,
+   "relations": [
+    "is generated from: fquery is generated from query q without visual information"
+   ],
+   "chunks": [
+    15
+   ]
+  },
+  {
+   "source": "q",
+   "target": "˜V",
+   "weight": 1,
+   "relations": [
+    "used with: the optimal subset ˜V is used with query q"
+   ],
+   "chunks": [
+    18
+   ]
+  },
+  {
+   "source": "˜V",
+   "target": "fvideo",
+   "weight": 1,
+   "relations": [
+    "is generated from: fvideo is generated from video V composed of image frames and subtitles"
+   ],
+   "chunks": [
+    15
+   ]
+  },
+  {
+   "source": "˜V",
+   "target": "Comb(·)",
+   "weight": 3,
+   "relations": [
+    "is determined by: ˜V is determined by the optimal subset of frames selected by Comb(·)",
+    "generates: Comb(V, m) generates the optimal subset ˜V",
+    "returns: Comb returns the optimal subset ˜V"
+   ],
+   "chunks": [
+    17,
+    18
+   ]
+  },
+  {
+   "source": "˜V",
+   "target": "f",
+   "weight": 1,
+   "relations": [
+    "applied to: the optimal subset ˜V is applied to the function f"
+   ],
+   "chunks": [
+    18
+   ]
+  },
+  {
+   "source": "VisionEncoder",
+   "target": "Fvisual",
+   "weight": 1,
+   "relations": [
+    "processes: VisionEncoder processes video frames to generate Fvisual"
+   ],
+   "chunks": [
+    13
+   ]
+  },
+  {
+   "source": "TextEncoder",
+   "target": "Ftext",
+   "weight": 1,
+   "relations": [
+    "processes: TextEncoder processes textual information to generate Ftext"
+   ],
+   "chunks": [
+    13
+   ]
+  },
+  {
+   "source": "fvideo",
+   "target": "fquery",
+   "weight": 1,
+   "relations": [
+    "has similarity: fquery and fvideo have similarity based on which top-k videos are retrieved"
+   ],
+   "chunks": [
+    15
+   ]
+  },
+  {
+   "source": "Comb(·)",
+   "target": "f",
+   "weight": 1,
+   "relations": [
+    "uses: Comb(·) uses f(·) to evaluate and assign relevance scores to selected frames"
+   ],
+   "chunks": [
+    17
+   ]
+  },
+  {
+   "source": "f",
+   "target": "CLIP",
+   "weight": 1,
+   "relations": [
+    "used for: CLIP is used to score the selected frame in f"
+   ],
+   "chunks": [
+    19
+   ]
+  },
+  {
+   "source": "CLIP",
+   "target": "4 frames",
+   "weight": 1,
+   "relations": [
+    "used to obtain representations for: used to obtain representations for the 4 frames"
+   ],
+   "chunks": [
+    51
+   ]
+  },
+  {
+   "source": "AudioToText",
+   "target": "Audio(V)",
+   "weight": 2,
+   "relations": [
+    "process: AudioToText processes the audio track extracted from the video.",
+    "input: AudioToText takes the extracted audio signal as input."
+   ],
+   "chunks": [
+    20
+   ]
+  },
+  {
+   "source": "AudioToText",
+   "target": "textual content",
+   "weight": 1,
+   "relations": [
+    "output: AudioToText converts the extracted audio signal into textual content."
+   ],
+   "chunks": [
+    20
+   ]
+  },
+  {
+   "source": "TextImageRAG",
+   "target": "TEXTVIDEORAG",
+   "weight": 1,
+   "relations": [
+    "PERFORMS-WELL-ON: TextImagerag performs well on the TextVideorag dataset."
+   ],
+   "chunks": [
+    27
+   ]
+  },
+  {
+   "source": "TextImageRAG",
+   "target": "VIDEORAG-V",
+   "weight": 1,
+   "relations": [
+    "variant of: TextImageRAG is a variant of TextRAG"
+   ],
+   "chunks": [
+    30
+   ]
+  },
+  {
+   "source": "TextImageRAG",
+   "target": "VideoRAG-VT",
+   "weight": 1,
+   "relations": [
+    "variant of: TextImageRAG is a variant of TextRAG"
+   ],
+   "chunks": [
+    30
+   ]
+  },
+  {
+   "source": "TEXTVIDEORAG",
+   "target": "VIDEORAG-V",
+   "weight": 3,
+   "relations": [
+    "PERFORMS-WELL-ON: TextVideorag performs well on the Videorag-V model.",
+    "PERFORMS-BEST-WITH: TextVideorag performs best with the Videorag-V model.",
+    "PERFORMS-BEST-WITH: TextVideorag performs best with the Videorag-V model."
+   ],
+   "chunks": [
+    27
+   ]
+  },
+  {
+   "source": "TEXTVIDEORAG",
+   "target": "VideoRAG-VT",
+   "weight": 2,
+   "relations": [
+    "PERFORMS-WELL-ON: TextVideorag performs well on the Videorag-Vt model.",
+    "PERFORMS-BEST-WITH: TextVideorag performs best with the Videorag-Vt model."
+   ],
+   "chunks": [
+    27
+   ]
+  },
+  {
+   "source": "TEXTVIDEORAG",
+   "target": "Oracle-V",
+   "weight": 2,
+   "relations": [
+    "PERFORMS-BEST-WITH: TextVideorag performs best with the Oracle-V setting.",
+    "PERFORMS-BEST-WITH: TextVideorag performs best with the Oracle-V setting."
+   ],
+   "chunks": [
+    27
+   ]
+  },
+  {
+   "source": "TEXTVIDEORAG",
+   "target": "Oracle-VT",
+   "weight": 2,
+   "relations": [
+    "PERFORMS-BEST-WITH: TextVideorag performs best with the Oracle-Vt setting.",
+    "PERFORMS-BEST-WITH: TextVideorag performs best with the Oracle-Vt setting."
+   ],
+   "chunks": [
+    27
+   ]
+  },
+  {
+   "source": "TEXTVIDEORAG",
+   "target": "InternVL 2.5",
+   "weight": 1,
+   "relations": [
+    "PERFORMS-BEST-WITH: TextVideorag performs best with the InternVL2.5 model."
+   ],
+   "chunks": [
+    27
+   ]
+  },
+  {
+   "source": "TEXTVIDEORAG",
+   "target": "Qwen-2.5-VL",
+   "weight": 1,
+   "relations": [
+    "PERFORMS-BEST-WITH: TextVideorag performs best with the Qwen2.5-VL model."
+   ],
+   "chunks": [
+    27
+   ]
+  },
+  {
+   "source": "TEXTVIDEORAG",
+   "target": "Human Evaluation",
+   "weight": 2,
+   "relations": [
+    "achieves highest performance: VideoRAG achieves the highest performance in human evaluation",
+    "conducts human evaluation: VideoRAG conducts human evaluation to complete automatic metrics"
+   ],
+   "chunks": [
+    37
+   ]
+  },
+  {
+   "source": "VIDEORAG-V",
+   "target": "VideoRAG-VT",
+   "weight": 3,
+   "relations": [
+    "variant of: VideoRAG-VT is a variant of VideoRAG-V",
+    "variant of: VideoRAG-V is a variant of VideoRAG-VT",
+    "variant of: VideoRAG-VT is a variant of VideoRAG-V"
+   ],
+   "chunks": [
+    30
+   ]
+  },
+  {
+   "source": "VIDEORAG-V",
+   "target": "TextRAG(BM25)",
+   "weight": 2,
+   "relations": [
+    "variant of: TextRAG(BM25) is a variant of TextRAG",
+    "variant of: TextRAG(BM25) is a variant of TextRAG"
+   ],
+   "chunks": [
+    30
+   ]
+  },
+  {
+   "source": "VIDEORAG-V",
+   "target": "TEXTRAG",
+   "weight": 2,
+   "relations": [
+    "compared: compares the performance of external textual knowledge and video-based retrieval and generation approaches",
+    "compare: Table 12 compares the performance of VIDEORAG-V and TEXTRAG (BM25) approaches."
+   ],
+   "chunks": [
+    56,
+    60
+   ]
+  },
+  {
+   "source": "VIDEORAG-V",
+   "target": "Acorn squash",
+   "weight": 1,
+   "relations": [
+    "relevant to: VIDEORAG-V retrieves a relevant video demonstrating how to cut an acorn squash"
+   ],
+   "chunks": [
+    56
+   ]
+  },
+  {
+   "source": "G-Eval",
+   "target": "GPT-4o-mini",
+   "weight": 1,
+   "relations": [
+    "uses: G-Eval uses GPT-4o-mini for evaluation"
+   ],
+   "chunks": [
+    24
+   ]
+  },
+  {
+   "source": "G-Eval",
+   "target": "Table 14",
+   "weight": 2,
+   "relations": [
+    "provides_prompt_for: G-Eval provides a prompt in Table 14 for evaluation",
+    "USED_AS_GUIDELINE: The prompt template in Table 14 serves as a guideline for human evaluation of generated responses."
+   ],
+   "chunks": [
+    24,
+    66
+   ]
+  },
+  {
+   "source": "LLaVA-Video",
+   "target": "InternVL 2.5",
+   "weight": 1,
+   "relations": [
+    "has: InternVL 2.5 has LLaVA-Video as a model"
+   ],
+   "chunks": [
+    24
+   ]
+  },
+  {
+   "source": "InternVL 2.5",
+   "target": "Qwen-2.5-VL",
+   "weight": 1,
+   "relations": [
+    "has: InternVL 2.5 has Qwen-2.5-VL as a model"
+   ],
+   "chunks": [
+    24
+   ]
+  },
+  {
+   "source": "InternVL",
+   "target": "parameters",
+   "weight": 1,
+   "relations": [
+    "has: InternVL is a 2.5B parameter language model for generation."
+   ],
+   "chunks": [
+    25
+   ]
+  },
+  {
+   "source": "NAÏVE baseline",
+   "target": "VideoRAG-VT",
+   "weight": 1,
+   "relations": [
+    "improves performance over: incorporating external knowledge consistently improves performance over the NAÏVE baseline"
+   ],
+   "chunks": [
+    34
+   ]
+  },
+  {
+   "source": "NAÏVE baseline",
+   "target": "generic response",
+   "weight": 1,
+   "relations": [
+    "generates: generates a generic response highlighting impracticality and safety concerns"
+   ],
+   "chunks": [
+    38
+   ]
+  },
+  {
+   "source": "VideoRAG-VT",
+   "target": "TextRAG(BM25)",
+   "weight": 1,
+   "relations": [
+    "variant of: TextRAG(BM25) is a variant of TextRAG"
+   ],
+   "chunks": [
+    30
+   ]
+  },
+  {
+   "source": "VideoRAG-VT",
+   "target": "Food & Entertaining",
+   "weight": 1,
+   "relations": [
+    "benefits from: queries in this category often require visual details"
+   ],
+   "chunks": [
+    34
+   ]
+  },
+  {
+   "source": "VideoRAG-VT",
+   "target": "videos with general textual documents",
+   "weight": 1,
+   "relations": [
+    "achieves slightly degraded performance with: approach that jointly uses videos with general textual documents achieves slightly degraded performance"
+   ],
+   "chunks": [
+    34
+   ]
+  },
+  {
+   "source": "Oracle setting",
+   "target": "performance",
+   "weight": 1,
+   "relations": [
+    "achieves highest: The Oracle setting achieves the highest performance"
+   ],
+   "chunks": [
+    29
+   ]
+  },
+  {
+   "source": "Video retrieval",
+   "target": "textual features",
+   "weight": 1,
+   "relations": [
+    "outperform: Textual features consistently outperform visual features"
+   ],
+   "chunks": [
+    29
+   ]
+  },
+  {
+   "source": "Spearman’s correlation coefficient",
+   "target": "inter-annotator agreement",
+   "weight": 1,
+   "relations": [
+    "measures: measures consistency among annotators"
+   ],
+   "chunks": [
+    38
+   ]
+  },
+  {
+   "source": "0.632",
+   "target": "inter-annotator agreement",
+   "weight": 1,
+   "relations": [
+    "obtained: obtained coefficient confirming high reliability of assessments"
+   ],
+   "chunks": [
+    38
+   ]
+  },
+  {
+   "source": "0.588",
+   "target": "human- and model-based evaluations",
+   "weight": 1,
+   "relations": [
+    "measured: measures agreement between human and model-based evaluations"
+   ],
+   "chunks": [
+    38
+   ]
+  },
+  {
+   "source": "MLP",
+   "target": "3-layer MLPs",
+   "weight": 1,
+   "relations": [
+    "consists of: consists of 3-layer MLPs"
+   ],
+   "chunks": [
+    51
+   ]
+  },
+  {
+   "source": "cross-entropy loss",
+   "target": "optimization",
+   "weight": 1,
+   "relations": [
+    "used for: used for optimizing the network"
+   ],
+   "chunks": [
+    51
+   ]
+  },
+  {
+   "source": "Retrieved",
+   "target": "Video Set",
+   "weight": 1,
+   "relations": [
+    "uses: Retrieved method uses the Video Set for its operations."
+   ],
+   "chunks": [
+    53
+   ]
+  },
+  {
+   "source": "Oracle",
+   "target": "Video Set",
+   "weight": 1,
+   "relations": [
+    "uses: Oracle method uses the Video Set for its operations."
+   ],
+   "chunks": [
+    53
+   ]
+  },
+  {
+   "source": "Random",
+   "target": "Video Set",
+   "weight": 1,
+   "relations": [
+    "uses: Random method uses the Video Set for its operations."
+   ],
+   "chunks": [
+    53
+   ]
+  },
+  {
+   "source": "uniform sampling",
+   "target": "Adaptive Frame Selection",
+   "weight": 2,
+   "relations": [
+    "compares: compares the performance of different sampling methods on the retrieval task",
+    "compares: compares the performance of different frame selection methods on the generation task"
+   ],
+   "chunks": [
+    56
+   ]
+  },
+  {
+   "source": "Clustering (Ours)",
+   "target": "Clustering-based reduction",
+   "weight": 1,
+   "relations": [
+    "uses: The clustering-based frame reduction method uses clustering for initialization."
+   ],
+   "chunks": [
+    55
+   ]
+  },
+  {
+   "source": "rose",
+   "target": "Vally Wiselthier",
+   "weight": 1,
+   "relations": [
+    "instructed: Rose learned how to use a potter's wheel at Greenwich House after seeing Vally Wiselthier's preliminary pieces."
+   ],
+   "chunks": [
+    61
+   ]
+  },
+  {
+   "source": "rose",
+   "target": "kiln",
+   "weight": 2,
+   "relations": [
+    "used to fire: kiln is used to fire the clay rose",
+    "used to harden: kiln is used to harden the clay rose after firing"
+   ],
+   "chunks": [
+    62
+   ]
+  },
+  {
+   "source": "rose",
+   "target": "glaze",
+   "weight": 1,
+   "relations": [
+    "applied to: glaze is applied to the fired clay rose for finishing"
+   ],
+   "chunks": [
+    62
+   ]
+  },
+  {
+   "source": "clay",
+   "target": "petals",
+   "weight": 1,
+   "relations": [
+    "used to create: clay is used to form the petals of the rose"
+   ],
+   "chunks": [
+    62
+   ]
+  },
+  {
+   "source": "petals",
+   "target": "sponge",
+   "weight": 1,
+   "relations": [
+    "used to smooth: sponge is used to smooth out rough areas of the petals"
+   ],
+   "chunks": [
+    62
+   ]
+  },
+  {
+   "source": "petals",
+   "target": "tool",
+   "weight": 1,
+   "relations": [
+    "used to add details to: tool is used to add details like veins or shading to the petals"
+   ],
+   "chunks": [
+    62
+   ]
+  },
+  {
+   "source": "petals",
+   "target": "glue",
+   "weight": 1,
+   "relations": [
+    "applied to: glue is applied to the petals for finishing"
+   ],
+   "chunks": [
+    62
+   ]
+  },
+  {
+   "source": "glaze",
+   "target": "kiln",
+   "weight": 1,
+   "relations": [
+    "used to cure: kiln is used to cure the glaze after application"
+   ],
+   "chunks": [
+    62
+   ]
+  },
+  {
+   "source": "Making Clay Rose",
+   "target": "Rolling out clay",
+   "weight": 1,
+   "relations": [
+    "INSTRUCTS: Explain how to make a clay rose starts with rolling out a piece of clay into a flat sheet."
+   ],
+   "chunks": [
+    63
+   ]
+  },
+  {
+   "source": "Making Clay Rose",
+   "target": "Flattening clay",
+   "weight": 1,
+   "relations": [
+    "INSTRUCTS: Explain how to make a clay rose continues with using a rolling pin to flatten the clay further."
+   ],
+   "chunks": [
+    63
+   ]
+  },
+  {
+   "source": "Making Clay Rose",
+   "target": "Cutting petal shapes",
+   "weight": 1,
+   "relations": [
+    "INSTRUCTS: Explain how to make a clay rose involves using a knife or sculpting tool to cut the clay into petal shapes."
+   ],
+   "chunks": [
+    63
+   ]
+  },
+  {
+   "source": "Making Clay Rose",
+   "target": "Rolling petals into spiral",
+   "weight": 1,
+   "relations": [
+    "INSTRUCTS: Explain how to make a clay rose includes rolling the petals into a spiral shape to form the rose."
+   ],
+   "chunks": [
+    63
+   ]
+  },
+  {
+   "source": "Making Clay Rose",
+   "target": "Creating indentations",
+   "weight": 1,
+   "relations": [
+    "INSTRUCTS: Explain how to make a clay rose requires using a small tool to create indentations in the petals for texture."
+   ],
+   "chunks": [
+    63
+   ]
+  },
+  {
+   "source": "Making Clay Rose",
+   "target": "Assembling petals",
+   "weight": 1,
+   "relations": [
+    "INSTRUCTS: Explain how to make a clay rose involves assembling the petals around a central stem, shaping them to resemble a rose."
+   ],
+   "chunks": [
+    63
+   ]
+  },
+  {
+   "source": "Making Clay Rose",
+   "target": "Adding leaves",
+   "weight": 1,
+   "relations": [
+    "INSTRUCTS: Explain how to make a clay rose includes adding leaves and other details as desired."
+   ],
+   "chunks": [
+    63
+   ]
+  },
+  {
+   "source": "Making Clay Rose",
+   "target": "Using mold",
+   "weight": 1,
+   "relations": [
+    "INSTRUCTS: Explain how to make a clay rose concludes with using a mold to imprint patterns onto the petals, adding depth and realism to the rose."
+   ],
+   "chunks": [
+    63
+   ]
+  }
+ ]
+}

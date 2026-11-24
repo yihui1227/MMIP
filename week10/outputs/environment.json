@@ -1,0 +1,16 @@
+{
+  "python": "3.11.18",
+  "torch": "2.14.1+cu126",
+  "transformers": "5.22.2",
+  "cuda": "12.6",
+  "gpu": "NVIDIA GeForce RTX 3060",
+  "quick": false,
+  "config": {
+    "embedder": "BAAI/bge-m3",
+    "reranker": "BAAI/bge-reranker-v2-m3",
+    "llm": "Qwen/Qwen2.5-3B-Instruct",
+    "vlm": "Qwen/Qwen2-VL-2B-Instruct",
+    "clip": "openai/clip-vit-base-patch32",
+    "asr": "openai/whisper-small"
+  }
+}
